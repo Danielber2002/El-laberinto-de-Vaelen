@@ -29,6 +29,7 @@ public class Lore : MonoBehaviour
     }
     void Update()
     {
+
         MoreVelocity();
     }
 
