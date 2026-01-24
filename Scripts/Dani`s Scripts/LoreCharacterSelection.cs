@@ -30,7 +30,7 @@ public class LoreCharacterSelection : MonoBehaviour
 
     void MoreVelocity()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             tiempoEntreLetras = 0.001f;
         }
