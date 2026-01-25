@@ -5061,8 +5061,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1607844693}
-        m_TargetAssemblyTypeName: Sorrem0Introduccion, Assembly-CSharp
-        m_MethodName: CambiarEscena
+        m_TargetAssemblyTypeName: CambiosdeScenaSORREM, Assembly-CSharp
+        m_MethodName: Sorrem0Introduccion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5081,7 +5081,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1607844688}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 904620ce41ea976409c71915599d8dcb, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3af0b54a6a4f34e87055b477992101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1759727374

@@ -434,7 +434,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 17723868}
-  - component: {fileID: 17723869}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -457,18 +456,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &17723869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 17723867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e3af0b54a6a4f34e87055b477992101, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &49837890
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,7 +607,7 @@ MonoBehaviour:
   m_text: "\xBFQue deseas hacer a continuacion?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
-  m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
+  m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -685,7 +672,7 @@ MonoBehaviour:
   m_margin: {x: -439.64728, y: 0, z: -205.00461, w: -123.40857}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &61655411
@@ -763,7 +750,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 430.6419, y: 19.10685}
+  m_AnchoredPosition: {x: 430.6419, y: 21}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &71025173
@@ -923,12 +910,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Has evitado su ataque; el esqueleto ha golpeado una tumba, por lo que
-    se le ha ca\xEDdo la espada en el proceso. La coges y sales corriendo del lugar:
-    +1 de Ataque."
+  m_text: "Intentas esquivar la embestida de la criatura, pero ella consigue ser
+    m\xE1s r\xE1pida y te manda a volar por los aires: -1 de Vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
-  m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
+  m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2339,6 +2325,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 288564565}
+        m_TargetAssemblyTypeName: PlayerHealth, Assembly-CSharp
+        m_MethodName: RestarVida
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &757701691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2354,16 +2352,10 @@ MonoBehaviour:
   objectsforQuit:
   - {fileID: 61655409}
   - {fileID: 1924473136}
-  - {fileID: 757701686}
-  - {fileID: 951063860}
-  - {fileID: 1978524362}
-  - {fileID: 1582630200}
-  - {fileID: 1658368407}
-  - {fileID: 1220510694}
+  - {fileID: 92907267}
+  - {fileID: 1661584740}
   objectsforAdd:
   - {fileID: 1696571901}
-  - {fileID: 1598515051}
-  - {fileID: 1058359897}
 --- !u!1 &810713530
 GameObject:
   m_ObjectHideFlags: 0
@@ -2812,16 +2804,18 @@ MonoBehaviour:
   objectsforQuit:
   - {fileID: 61655409}
   - {fileID: 1924473136}
+  - {fileID: 92907267}
+  - {fileID: 1696571901}
   - {fileID: 757701686}
   - {fileID: 951063860}
   - {fileID: 1978524362}
   - {fileID: 1582630200}
-  - {fileID: 1658368407}
+  - {fileID: 615678232}
   - {fileID: 1220510694}
   objectsforAdd:
   - {fileID: 1661584740}
-  - {fileID: 1598515051}
   - {fileID: 1058359897}
+  - {fileID: 1598515051}
 --- !u!1 &962518854
 GameObject:
   m_ObjectHideFlags: 0
@@ -3311,7 +3305,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.04, y: 0, z: 0}
-  m_LocalScale: {x: 0.98383665, y: 0.98383665, z: 0.98383665}
+  m_LocalScale: {x: 1.6602223, y: 1.6602223, z: 1.6602223}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 49837892}
@@ -3360,7 +3354,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8025572848997037664, guid: d441db98e1f2aed4c93449adf957dcd0, type: 3}
+  m_Sprite: {fileID: -3062260742879559270, guid: 95bfa699579695e46bc51a6e608292e4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3720,7 +3714,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 445, y: 19.10685}
+  m_AnchoredPosition: {x: 445, y: 6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1264694731
@@ -3743,7 +3737,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 6
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -4634,6 +4628,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 288564565}
+        m_TargetAssemblyTypeName: PlayerHealth, Assembly-CSharp
+        m_MethodName: RestarVida
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1361205035}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
@@ -4661,16 +4667,10 @@ MonoBehaviour:
   objectsforQuit:
   - {fileID: 61655409}
   - {fileID: 1924473136}
-  - {fileID: 757701686}
-  - {fileID: 951063860}
-  - {fileID: 1978524362}
-  - {fileID: 1582630200}
-  - {fileID: 1658368407}
-  - {fileID: 1220510694}
+  - {fileID: 1661584740}
+  - {fileID: 1696571901}
   objectsforAdd:
   - {fileID: 92907267}
-  - {fileID: 1598515051}
-  - {fileID: 1058359897}
 --- !u!1 &1593526584
 GameObject:
   m_ObjectHideFlags: 0
@@ -4705,7 +4705,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 430.6419, y: 19.10685}
+  m_AnchoredPosition: {x: 450, y: 19.10685}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1593526586
@@ -4728,7 +4728,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 4
+  m_text: 5
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5336,7 +5336,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8422365713773244126, guid: d71c16cb614ccbf4388d82ba0d91048d, type: 3}
+  m_Sprite: {fileID: 66935727136603358, guid: f2ef0c653ed8b5e40a53ec7b3841f231, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5357,7 +5357,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.04, y: 0, z: 0}
-  m_LocalScale: {x: 0.98383665, y: 0.98383665, z: 0.98383665}
+  m_LocalScale: {x: 1.6602223, y: 1.6602223, z: 1.6602223}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 49837892}
@@ -5401,11 +5401,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Te has defendido con \xE9xito de su ataque y has contraatacado matando
-    al esqueleto de un golpe. Has tomado su espada como recompensa.: +1  de Ataque."
+  m_text: "La ara\xF1a gigante se te abalancha encima, pero consigues desviar su
+    pata con tu espada y atravesarle el cuerpo. Recoges un libro viejo de una de
+    las telara\xF1as: +1 de Persuasi\xF3n."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
-  m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
+  m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5467,10 +5468,10 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -439.64728, y: 0, z: -205.00461, w: -123.40857}
+  m_margin: {x: -460.94153, y: 0, z: -231.90231, w: -123.40857}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1661584742
@@ -5821,7 +5822,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 387.54834, y: -254.3312}
+  m_AnchoredPosition: {x: 387.54834, y: -254.33124}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1696571903
@@ -5844,11 +5845,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Has conseguido acertar el ataque al esqueleto; este se ha desmoronado
-    frente a ti y has tomado su espada, mejorando tu ataque: +1 de Ataque.'
+  m_text: "Lanzas un espadazo a la imponente ara\xF1a, pero aparta la espada con
+    una de sus patas y te golpea, lanz\xE1ndote un par de metros volando. Te golpeas
+    la cabeza en la ca\xEDda: -1 de Vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
-  m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
+  m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5910,10 +5912,10 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -439.64728, y: 0, z: -205.00461, w: -123.40857}
+  m_margin: {x: -459.14697, y: 0, z: -225.53055, w: -123.40857}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1696571904
@@ -6097,7 +6099,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6366,11 +6368,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Un esqueleto se levanta de una de las tumbas con aspecto amenazante. Porta
-    una espada y parece que no le ha agradado tu visita.
+  m_text: "Giras la cabeza al percibir una presencia oscura y se te pone la carne
+    de gallina al ver una ara\xF1a enorme mir\xE1ndote fijamente; sus ocho ojos no
+    parecen querer dejarte ir, sus patas peludas chasquean contra la pared."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
-  m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
+  m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6435,7 +6438,7 @@ MonoBehaviour:
   m_margin: {x: -439.64728, y: 0, z: -205.00461, w: -123.40857}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1813086536
@@ -6455,7 +6458,7 @@ RectTransform:
   m_GameObject: {fileID: 1813086534}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.08968587, y: 0.46751508, z: 0}
+  m_LocalScale: {x: 0.08968587, y: 0.47920296, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1493058694}
@@ -6650,13 +6653,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 17723869}
-        m_TargetAssemblyTypeName: CambiosdeScenaSORREM, Assembly-CSharp
-        m_MethodName: Sorrem2Necrofago
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GameObjetsInterchange, Assembly-CSharp
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6834,8 +6837,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Atraviesas la puerta de la izquierda hasta una habitaci\xF3n nueva. Parece
-    una tumba antigua, pero llena de vegetaci\xF3n."
+  m_text: Atraviesas la puerta de la derecha hasta un corredor completamente nuevo.
+    Es una especie de pasillo alargado, muy oscuro y lleno de suciedad.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -7394,8 +7397,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'El esqueleto no se ha dejado chantajear por tus palabras y te ha golpeado:
-    -1 de Vida.'
+  m_text: 'Tratas de hablar con la criatura, pero te lanza un disparo de seda en
+    respuesta: -1 de Vida.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -7660,6 +7663,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsforQuit:
   - {fileID: 61655409}
+  - {fileID: 1661584740}
+  - {fileID: 92907267}
+  - {fileID: 1696571901}
   objectsforAdd:
   - {fileID: 1924473136}
 --- !u!1 &1998178788

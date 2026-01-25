@@ -291,6 +291,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 17723868}
+  - component: {fileID: 17723869}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -313,6 +314,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &17723869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17723867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3af0b54a6a4f34e87055b477992101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &49837890
 GameObject:
   m_ObjectHideFlags: 0
@@ -1342,8 +1355,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1491163018}
-        m_TargetAssemblyTypeName: Sorrem1Esqueleto, Assembly-CSharp
-        m_MethodName: CambiarEscena
+        m_TargetAssemblyTypeName: CambiosdeScenaSORREM, Assembly-CSharp
+        m_MethodName: Sorrem1Skeleton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1400,7 +1413,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1491163013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3215bcebde06364396535d60fff66d8, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3af0b54a6a4f34e87055b477992101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1493058693
@@ -2455,8 +2468,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1843421639}
-        m_TargetAssemblyTypeName: Sorrem1Goblin, Assembly-CSharp
-        m_MethodName: CambiarEscena
+        m_TargetAssemblyTypeName: CambiosdeScenaSORREM, Assembly-CSharp
+        m_MethodName: Sorrem1Goblin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2513,7 +2526,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1843421634}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a60915d7633ff014d85f5a594a9610be, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3af0b54a6a4f34e87055b477992101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1887043625
