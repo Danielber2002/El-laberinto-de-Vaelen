@@ -1,6 +1,5 @@
 using System.Collections;
 using TMPro;
-using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -22,7 +21,6 @@ public class InitManager : MonoBehaviour
 
     [Header("Ajustes")]
     public float typingSpeed = 0.05f;
-    public float waitTimeBetweenDialog = 35.0f;
     public float waitTimeBetweenLoadScene = 2.0f;
 
     void Start()
