@@ -4263,7 +4263,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 17723869}
         m_TargetAssemblyTypeName: CambiosdeScenaSORREM, Assembly-CSharp
-        m_MethodName: Sorrem4Introduccion
+        m_MethodName: MidpointScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6658,7 +6658,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 17723869}
         m_TargetAssemblyTypeName: CambiosdeScenaSORREM, Assembly-CSharp
-        m_MethodName: Sorrem4Introduccion
+        m_MethodName: MidpointScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
