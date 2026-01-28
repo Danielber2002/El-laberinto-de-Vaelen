@@ -80,9 +80,14 @@ public class CambiosdeScenaSORREM : MonoBehaviour
     {
         SceneManager.LoadScene("Sorrem-6 Khull");
     }
-
+    
     public void Sorrem6Basilisco()
     {
         SceneManager.LoadScene("Sorrem-6 Basilisco");
+    }
+
+    public void MidpointScene()
+    {
+        SceneManager.LoadScene("MidpointScene");
     }
 }
