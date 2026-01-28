@@ -604,7 +604,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xBFQue deseas hacer a continuacion?"
+  m_text: "\xBFQue deseas hacer a continuaci\xF3n?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -910,8 +910,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "No puedes aguantar m\xE1s lo que dice de ti as\xED que decides huir. \nHas
-    conseguido escapar pero Sus palabras te han hecho mucho da\xF1o. -1 de vida."
+  m_text: "Al estar inmobilizada no consigues escapar con \xE9xito. -1 de vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -1598,7 +1597,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Cuando pensabas que por fin ibas a tener un momento de tranquillidad,
-    te encuentras en  el techo a una ara\xF1a gigante."
+    te encuentras en el techo una tar\xE1ntula gigante."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -6387,8 +6386,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Como defensa te muestras imponente ante sus ataques verbales. \nMuestras
-    la suficiente seguridad que hace que se canse y huya."
+  m_text: "Empiezas a producir un calor antinatural que hace que desagas la telara\xF1a
+    que te inmobilizaba. +1 de defensa."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6830,7 +6829,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Produces un destello que lo asusta, el enemigo ha huido. +1 de ataque.
+  m_text: "Est\xE1s inmobilizada por lo que no puedes atacar directamente. -1 de
+    vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -7351,8 +7351,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Cuando pensabas que por fin ibas a tener un momento de tranquillidad,
-    te encuentras en  el techo a una ara\xF1a gigante."
+  m_text: "Antes de que intentes hacer cualquier movimiento, la t\xE1rantula te ha
+    lanzado una red de telara\xF1a para dejarte inmobilizada."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -7757,9 +7757,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Mientras sigues tu camino empiezas a sentir que ya est\xE1s llegando al
-    final del laberinto. \nEmpiezas a ver esa esperanza e ilusi\xF3n que te faltaba
-    al principio por conseguir las hierbas m\xE1gicas,"
+  m_text: "Mientras sigues tu camino comienzas a sentir que ya est\xE1s llegando
+    al final del laberinto. \nEmpiezas a ver esa esperanza e ilusi\xF3n que te faltaba
+    al principio por conseguir las hierbas m\xE1gicas."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -8697,8 +8697,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lysandra: \"\xBFQui\xE9n eres? \xBFQu\xE9 quieres de m\xED?\".\r\nTus
-    preguntas no hacen nada, sigue atacando sin parar, quiere destruir tu moral."
+  m_text: "Intentas conectar con la criatura, buscando evitar el conflicto y encontrar
+    una soluci\xF3n pac\xEDfica. +1 de persuasi\xF3n."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
