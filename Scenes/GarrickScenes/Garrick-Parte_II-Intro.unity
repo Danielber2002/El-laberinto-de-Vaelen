@@ -1030,7 +1030,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 49837892}
@@ -1079,7 +1079,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2857545698759547781, guid: 87e77ade711312848b353f2c11aa5f74, type: 3}
+  m_Sprite: {fileID: 4245382439954988513, guid: 6361e93444074ea429dcfd3aa65605f9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1752,7 +1752,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xBFQue puerta quieres cruzar?"
+  m_text: "\xBFPor donde deseas avanzar?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -2258,8 +2258,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "La habitaci\xF3n a la que has llegado parece vac\xEDa, pero llena de luz.
-    Es un entorno seguro al parecer."
+  m_text: "Garrick: \xBFC\xF3mo no ha podido funcionar? Tenia TODO EL SENTIDO.\nLysa
+    y Sorrem siguen con vida, si , seguro. Dios m\xEDo...\n(empieza a llorar)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -2587,8 +2587,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lamentas haber dejado atr\xE1s a tus hermanos y te planteas si fue una
-    buena decisi\xF3n hacerle caso al cartel que visteis."
+  m_text: "....\nGarrick: No, no, no no, no no no.... NOOOO\n\xBFQu\xE9 he hecho?
+    AAAAAH"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}

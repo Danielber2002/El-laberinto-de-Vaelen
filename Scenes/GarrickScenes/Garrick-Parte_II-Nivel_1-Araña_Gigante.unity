@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -786,7 +786,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 2
+  m_text: 6
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -923,9 +923,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Le has evitado el ataque, y sales corriendo, el goblin te lanza el hacha
-    tratando de golpearte pero no acierta, coges el hacha y sales corriendo: +1 de
-    Ataque.'
+  m_text: "Huyes despavorido, sin mirar atr\xE1s."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -1772,7 +1770,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 2
+  m_text: 5
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -2339,6 +2337,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 288564565}
+        m_TargetAssemblyTypeName: PlayerHealth, Assembly-CSharp
+        m_MethodName: RestarVida
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &757701691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2353,17 +2363,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsforQuit:
   - {fileID: 61655409}
+  - {fileID: 1661584740}
   - {fileID: 1924473136}
-  - {fileID: 757701686}
-  - {fileID: 951063860}
-  - {fileID: 1978524362}
-  - {fileID: 1582630200}
-  - {fileID: 1658368407}
-  - {fileID: 1220510694}
+  - {fileID: 92907267}
   objectsforAdd:
   - {fileID: 1696571901}
-  - {fileID: 1598515051}
-  - {fileID: 1058359897}
 --- !u!1 &810713530
 GameObject:
   m_ObjectHideFlags: 0
@@ -2797,6 +2801,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 288564565}
+        m_TargetAssemblyTypeName: PlayerHealth, Assembly-CSharp
+        m_MethodName: RestarVida
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &951063865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2811,17 +2827,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsforQuit:
   - {fileID: 61655409}
+  - {fileID: 1696571901}
   - {fileID: 1924473136}
-  - {fileID: 757701686}
-  - {fileID: 951063860}
-  - {fileID: 1978524362}
-  - {fileID: 1582630200}
-  - {fileID: 1658368407}
-  - {fileID: 1220510694}
+  - {fileID: 92907267}
   objectsforAdd:
   - {fileID: 1661584740}
-  - {fileID: 1598515051}
-  - {fileID: 1058359897}
 --- !u!1 &962518854
 GameObject:
   m_ObjectHideFlags: 0
@@ -2955,7 +2965,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 2
+  m_text: 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -3743,7 +3753,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 6
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -4660,6 +4670,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsforQuit:
   - {fileID: 61655409}
+  - {fileID: 1696571901}
+  - {fileID: 1661584740}
   - {fileID: 1924473136}
   - {fileID: 757701686}
   - {fileID: 951063860}
@@ -4728,7 +4740,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 4
+  m_text: 5
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5182,7 +5194,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xBFQue puerta quieres cruzar?"
+  m_text: 'Continua andando por:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5401,9 +5413,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Te has defendido con \xE9xito de su ataque y has contraatacado matando
-    al goblin de un solo golpe, te has llevado su hacha como un valioso recuerdo:
-    +1  de Ataque."
+  m_text: "Corres a cubrirte detr\xE1s d euna roca cercana, pero quedas atrapado
+    por un disparo de telara\xF1a: -1 de Vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5845,8 +5856,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Has conseguido acertar el ataque al goblin; este gime de dolor y sale
-    huyendo, dejando atr\xE1s su arma. Coges el hacha del goblin: +1 de Ataque."
+  m_text: "Intenta acertar una estocada, pero no tienes la precisi\xF3n de tu lado:
+    -1 de Vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6098,7 +6109,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6367,8 +6378,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Un goblin hambriento se escondia tras la columna, porta un hacha y pinta
-    de querer pocos amigos.
+  m_text: En cuanto levantas la cabeza te das cuentas, ves que vuelves a estar en
+    peligro. De repente se te revuelve todo tu cuerpo y entras en shock.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6835,8 +6846,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Atraviesas la puerta de la derecha hasta una habitaci\xF3n nueva. Parece
-    como si fuese el hogar de una criatura acaparadora de oro."
+  m_text: "Andas cabizbajo pensando en c\xF3mo se ha vuelto a quedar solo.  Por su
+    cabezoneria ha matado a lo que le quedaba de familia."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -7395,7 +7406,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'El goblin se rie de ti y te golpea: -1 de Vida.'
+  m_text: "Intentas hablar con la ara\xF1a, pero ella te escupe una especie de baba
+    corrosiva: -1 de Vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -7610,18 +7622,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 288564565}
-        m_TargetAssemblyTypeName: PlayerHealth, Assembly-CSharp
-        m_MethodName: RestarVida
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1978524367}
         m_TargetAssemblyTypeName: GameObjetsInterchange, Assembly-CSharp
         m_MethodName: Lists
@@ -7646,6 +7646,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 288564565}
+        m_TargetAssemblyTypeName: PlayerHealth, Assembly-CSharp
+        m_MethodName: RestarVida
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1978524367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7660,6 +7672,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsforQuit:
   - {fileID: 61655409}
+  - {fileID: 1696571901}
+  - {fileID: 1661584740}
+  - {fileID: 92907267}
   objectsforAdd:
   - {fileID: 1924473136}
 --- !u!1 &1998178788
