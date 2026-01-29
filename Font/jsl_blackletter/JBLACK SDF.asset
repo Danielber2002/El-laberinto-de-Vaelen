@@ -82,7 +82,7 @@ MonoBehaviour:
     m_StrikethroughThickness: 0.6933594
     m_TabWidth: 13
   m_Material: {fileID: 8140411122994348997}
-  m_SourceFontFileGUID: 26ec5cc24c543824abf9f74f0e15e566
+  m_SourceFontFileGUID: f6964de847a8e4448a9968fde8a73ac1
   m_CreationSettings:
     sourceFontFileName: 
     sourceFontFileGUID: 26ec5cc24c543824abf9f74f0e15e566
@@ -96,7 +96,7 @@ MonoBehaviour:
     atlasHeight: 512
     characterSetSelectionMode: 0
     characterSequence: 32 - 126, 160, 8203, 8230, 9633
-    referencedFontAssetGUID: 
+    referencedFontAssetGUID: 3683f77e1058daa41815f82a30b295be
     referencedTextAssetGUID: 
     fontStyle: 0
     fontStyleModifier: 0
