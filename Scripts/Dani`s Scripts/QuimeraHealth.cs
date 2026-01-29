@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayerHealth1 : MonoBehaviour
+public class QuimeraHealth : MonoBehaviour
 {
     [Header("Corazones")]
     public GameObject[] corazones;
@@ -52,4 +52,18 @@ public class PlayerHealth1 : MonoBehaviour
     {
         SceneManager.LoadScene("GameOver");
     }
+
+    void Update()
+    {
+        if (vidasRestantes >= 3)
+        {
+            PlayerPrefs.SetInt("EsFinalBueno", 1);
+            PlayerPrefs.Save();
+        }
+        else
+        {
+            PlayerPrefs.SetInt("EsFinalBueno", 0);
+            PlayerPrefs.Save();
+        }
+    }   
 }
