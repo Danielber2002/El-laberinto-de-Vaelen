@@ -8,6 +8,7 @@ using UnityEngine.Video;
 public class InitManager : MonoBehaviour
 {
     private bool haPulsadoBoton = false;
+    private Color colorOriginal;
 
     [Header("Referencias de Objetos")]
     public GameObject videoPlayer, UiGameObject, backgroundGameObject;
@@ -17,11 +18,12 @@ public class InitManager : MonoBehaviour
 
     [Header("Configuración de Imágenes")]
     public Sprite lysandraImage, garrickImage, sorremImage, madreImage;
-    public Sprite dungeonBackground, granjaBackground, cuartoMamaBackground, cocinaBackground;
+    public Sprite dungeonBackground, granjaBackground, cuartoMamaBackground, cocinaBackground, imagenInscripcionPuerta;
 
     [Header("Ajustes")]
     public float typingSpeed = 0.05f;
     public float waitTimeBetweenLoadScene = 2.0f;
+
 
     void Start()
     {
@@ -92,6 +94,42 @@ public class InitManager : MonoBehaviour
         yield return StartCoroutine(TypeText("Garrick: Si y ¿qué propones? ya oiste a mamá, ese lugar está lejos y ninguno de los tres le llemagos a la suela de nuestro padre. ¿Qué haremos estando allí?"));
         playerUI.sprite = sorremImage;
         yield return StartCoroutine(TypeText("Sorrem: Yaa, por eso toca unirnos y ser fuerte por la familia. Necesitamos un plan."));
+
+        // ----------------------------------------------------------  De vuelta en la Dungeon
+        // 9. Momento de la inscripción que hacen que se separen:
+        backgroundImage.sprite = dungeonBackground;
+
+        playerUI.sprite = garrickImage;
+        yield return StartCoroutine(TypeText("Garrick: Qué tiempos en la granja..."));
+        playerUI.sprite = sorremImage;
+        yield return StartCoroutine(TypeText("Sorrem: Eeh chicos ¡mirad!."));
+
+        backgroundImage.sprite = imagenInscripcionPuerta;
+        playerUI.sprite = sorremImage;
+        yield return StartCoroutine(TypeText("Sorrem: Hay una inscripción en la puerta."));
+        yield return StartCoroutine(TypeText("Sorrem: Cuesta leerlo pero pone: "));
+        yield return StartCoroutine(TypeText("La senda del destino es un hilo que se teje en soledad; dos hilos que convergen crecen desigual. Uno servirá de guía, mientras el otro se anuda al umbral."));
+        playerUI.sprite = lysandraImage;
+        yield return StartCoroutine(TypeText("Lysandra: ¿Habla de que nos separemos?"));
+        playerUI.sprite = sorremImage;
+        yield return StartCoroutine(TypeText("Sorrem: Creo que si mmmm."));
+        playerUI.sprite = garrickImage;
+        yield return StartCoroutine(TypeText("Garrick: Bieen, justo lo que nos hacia falta. Yo no me lo creo, lo pondrá para asuatar."));
+        playerUI.sprite = sorremImage;
+        yield return StartCoroutine(TypeText("Sorrem: Yo tendría más cuidado Garrick."));
+        yield return StartCoroutine(TypeText("Sorrem: ...la trampa que hemos esquivado se activó cuando Lysandra empezó hablar, al poco de pasar el umbral de la puerta. No me cuadra."));
+        playerUI.sprite = garrickImage;
+        yield return StartCoroutine(TypeText("Garrick: ¿Cómo estás tan seguro? A lo mejor pisamos algo antes y ninguno nos dimos cuenta."));
+        playerUI.sprite = lysandraImage;
+        yield return StartCoroutine(TypeText("Lysandra: Bueeeno chicos ¿qué hacemos?"));
+        yield return StartCoroutine(TypeText("Lysandra: Mientras discutimos mamá empeora y a saber donde de aquí dentro estará papá."));
+        playerUI.sprite = sorremImage;
+        yield return StartCoroutine(TypeText("Sorrem: Cierto, yo voto por separarnos."));
+        playerUI.sprite = lysandraImage;
+        yield return StartCoroutine(TypeText("Lysandra: Yo igual, aunque no estoy muy segura..."));
+        playerUI.sprite = sorremImage;
+        yield return StartCoroutine(TypeText("Sorrem: ¿En serio? Aaah, pues nada. Espero no arrepentirme luego de haceros caso."));
+
 
         yield return new WaitForSeconds(waitTimeBetweenLoadScene);
         SceneManager.LoadScene("CharacterSelection");
