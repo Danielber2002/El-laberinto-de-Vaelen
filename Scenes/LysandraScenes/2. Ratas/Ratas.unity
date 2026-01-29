@@ -436,6 +436,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 17723868}
+  - component: {fileID: 17723869}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -458,6 +459,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &17723869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17723867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18ac2d423e4a0b24d9cb77e8976c7128, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &49837890
 GameObject:
   m_ObjectHideFlags: 0
@@ -607,7 +620,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xBFQue deseas hacer a continuacion?"
+  m_text: "\xBFQue deseas hacer a continuaci\xF3n?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -1758,21 +1771,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ElijePuertaMala, Assembly-CSharp
-        m_MethodName: CambiarEscena
+      - m_Target: {fileID: 17723869}
+        m_TargetAssemblyTypeName: CambiosdeScenaLYSANDRA, Assembly-CSharp
+        m_MethodName: LysandraCieno
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4239,6 +4240,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1361205035}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 17723869}
+        m_TargetAssemblyTypeName: CambiosdeScenaLYSANDRA, Assembly-CSharp
+        m_MethodName: LysandraCieno
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7730,7 +7743,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Tu mejor defensa ha sido quedarte quieta, parece que a las ratas, no les
-    importara que estuvieses ah\xED, han seguido su camino sin herirte. +1 de ataque."
+    importara que estuvieses ah\xED, han seguido su camino sin herirte. +1 de defensa."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -8173,7 +8186,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Has intentado atacar a las ratas pate\xE1ndolas y pisote\xE1ndolas. Ha
-    sido tu peor ellecci\xF3n, las ratas se han defendido atacandote. -1 de vida"
+    sido tu peor elecci\xF3n, las ratas se han defendido atacandote. -1 de vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -9520,7 +9533,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Has gritado a las ratas que por favor no se acerquen a ti. \nAl extender
     los brazos por el miedo has visto saltar una chispa azul desde tus manos que
-    ha hecho que se asusten un poco, pero son demasiadas para pararlas. +1 de ataque."
+    ha hecho que se asusten un poco, pero son demasiadas para pararlas. +1 de defensa."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -9788,7 +9801,6 @@ MonoBehaviour:
   - {fileID: 1058359897}
   - {fileID: 392621610}
   - {fileID: 963862361}
-  - {fileID: 0}
 --- !u!1 &1987164431
 GameObject:
   m_ObjectHideFlags: 0
