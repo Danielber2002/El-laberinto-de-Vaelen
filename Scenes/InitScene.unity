@@ -306,7 +306,7 @@ MonoBehaviour:
   playerUI: {fileID: 1952875206}
   backgroundImage: {fileID: 721078783}
   textMeshPro: {fileID: 1689539990}
-  botonAceptar: {fileID: 0}
+  botonAceptar: {fileID: 1983095605}
   lysandraImage: {fileID: -5117200483052587975, guid: ab318289ef49d5f49b60cc890e308e32, type: 3}
   garrickImage: {fileID: -6593064175629690146, guid: 7cbfd17fb9363c94bb17fa6af920574e, type: 3}
   sorremImage: {fileID: -4196694105782020935, guid: 600fd5b570f72ca48a4eeee5b42002d6, type: 3}
@@ -315,9 +315,10 @@ MonoBehaviour:
   granjaBackground: {fileID: 1759600862153009359, guid: 95d2884cbe3583248a48b51e9417a07a, type: 3}
   cuartoMamaBackground: {fileID: 3640446531247607020, guid: cbc1402d43d3ccd47a6933d132528710, type: 3}
   cocinaBackground: {fileID: -7422120095751776547, guid: 4b0b32b2e1b2f2442ba3bcc0e9c5ef20, type: 3}
+  imagenInscripcionPuerta: {fileID: -3859185593205650899, guid: dbbce9dff3db8274098eb5a04210c8ce, type: 3}
   typingSpeed: 0.05
-  waitTimeBetweenDialog: 0.3
   waitTimeBetweenLoadScene: 15
+  duracion: 2
 --- !u!1 &649544056
 GameObject:
   m_ObjectHideFlags: 0
