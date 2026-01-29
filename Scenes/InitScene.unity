@@ -318,7 +318,6 @@ MonoBehaviour:
   imagenInscripcionPuerta: {fileID: -3859185593205650899, guid: dbbce9dff3db8274098eb5a04210c8ce, type: 3}
   typingSpeed: 0.05
   waitTimeBetweenLoadScene: 15
-  duracion: 2
 --- !u!1 &649544056
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,9 +1089,9 @@ MonoBehaviour:
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: -5
   m_wordSpacing: 0
-  m_lineSpacing: 30
+  m_lineSpacing: -25
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
