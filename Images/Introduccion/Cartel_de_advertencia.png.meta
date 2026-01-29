@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1b5a37f1d75309149923ffc77abb6ab0
+guid: dbbce9dff3db8274098eb5a04210c8ce
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8919690773855504177
-    second: Sala_Trampa1_0
+      213: -3859185593205650899
+    second: Cartel_de_advertencia_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sala_Trampa1_0
+      name: Cartel_de_advertencia_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1378cf1108b19cb70800000000000000
-      internalID: 8919690773855504177
+      spriteID: d2a0caa562b617ac0800000000000000
+      internalID: -3859185593205650899
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sala_Trampa1_0: 8919690773855504177
+      Cartel_de_advertencia_0: -3859185593205650899
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
