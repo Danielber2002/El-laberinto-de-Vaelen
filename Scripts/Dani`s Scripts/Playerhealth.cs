@@ -10,7 +10,15 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
-        ActualizarCorazonesVisuales();
+        if (SceneManager.GetActiveScene().name == "MidpointScene")
+        {
+           ReiniciarVidas();
+        }
+        else
+        {
+           ActualizarCorazonesVisuales();
+        }
+        
     }
 
     public void RestarVida()
