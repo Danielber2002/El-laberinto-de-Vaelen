@@ -440,6 +440,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 17723868}
+  - component: {fileID: 17723869}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -462,6 +463,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &17723869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17723867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18ac2d423e4a0b24d9cb77e8976c7128, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &49837890
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,7 +671,6 @@ GameObject:
   - component: {fileID: 145559316}
   - component: {fileID: 145559315}
   - component: {fileID: 145559314}
-  - component: {fileID: 145559313}
   m_Layer: 0
   m_Name: LeftDoor
   m_TagString: Untagged
@@ -686,18 +698,6 @@ RectTransform:
   m_AnchoredPosition: {x: -401, y: -480}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &145559313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 145559311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d60e561e789929b40971d76de4be4534, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &145559314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -742,9 +742,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 145559313}
-        m_TargetAssemblyTypeName: ElijePuertaBuena, Assembly-CSharp
-        m_MethodName: CambiarEscena
+      - m_Target: {fileID: 17723869}
+        m_TargetAssemblyTypeName: CambiosdeScenaLYSANDRA, Assembly-CSharp
+        m_MethodName: LysandraRatas
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

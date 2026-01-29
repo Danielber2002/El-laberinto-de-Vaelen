@@ -296,6 +296,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 17723868}
+  - component: {fileID: 17723869}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -318,6 +319,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &17723869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17723867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18ac2d423e4a0b24d9cb77e8976c7128, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &32473432
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,8 +1537,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 162467412}
-        m_TargetAssemblyTypeName: ElijePuertaMala, Assembly-CSharp
-        m_MethodName: CambiarEscena
+        m_TargetAssemblyTypeName: CambiosdeScenaLYSANDRA, Assembly-CSharp
+        m_MethodName: LysandraPuertaMala
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1582,7 +1595,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 162467407}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8baadc5a471c0c04b93390dcfd35ed7e, type: 3}
+  m_Script: {fileID: 11500000, guid: 18ac2d423e4a0b24d9cb77e8976c7128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &234873325
@@ -2213,9 +2226,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lysandra: \"\xBFRUBIO?\"\n\"Est\xE1is hablando de Sorren?\".\nPuerta Izquierda:
-    \"No le hagas caso, mi hermana solo sabe mentir...\".\nPuerta Derecha:  \"\xA1Aqu\xED
-    la \xFAnica mentirosa eres tu!\".\n\n\n"
+  m_text: "Lysandra: \"\xBFRUBIO?\".\n\"Est\xE1is hablando de Sorren?\".\nPuerta
+    Izquierda: \"No le hagas caso, mi hermana solo sabe mentir...\".\nPuerta Derecha: 
+    \"\xA1Aqu\xED la \xFAnica mentirosa eres tu!\".\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -4691,7 +4704,6 @@ GameObject:
   - component: {fileID: 1110988749}
   - component: {fileID: 1110988748}
   - component: {fileID: 1110988747}
-  - component: {fileID: 1110988750}
   m_Layer: 0
   m_Name: LeftDoor
   m_TagString: Untagged
@@ -4775,9 +4787,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1110988750}
-        m_TargetAssemblyTypeName: ElijePuertaMala, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 17723869}
+        m_TargetAssemblyTypeName: CambiosdeScenaLYSANDRA, Assembly-CSharp
+        m_MethodName: LysandraRatas
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4825,18 +4837,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1110988745}
   m_CullTransparentMesh: 1
---- !u!114 &1110988750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1110988745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d60e561e789929b40971d76de4be4534, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1115691557
 GameObject:
   m_ObjectHideFlags: 0
@@ -6041,8 +6041,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1491163018}
-        m_TargetAssemblyTypeName: ElijePuertaBuena, Assembly-CSharp
-        m_MethodName: CambiarEscena
+        m_TargetAssemblyTypeName: CambiosdeScenaLYSANDRA, Assembly-CSharp
+        m_MethodName: LysandraRatas
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6099,7 +6099,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1491163013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d60e561e789929b40971d76de4be4534, type: 3}
+  m_Script: {fileID: 11500000, guid: 18ac2d423e4a0b24d9cb77e8976c7128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1491177711
@@ -6583,7 +6583,6 @@ GameObject:
   - component: {fileID: 1540209360}
   - component: {fileID: 1540209359}
   - component: {fileID: 1540209358}
-  - component: {fileID: 1540209361}
   m_Layer: 0
   m_Name: RightDoor
   m_TagString: Untagged
@@ -6667,9 +6666,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1540209361}
-        m_TargetAssemblyTypeName: ElijePuertaMala, Assembly-CSharp
-        m_MethodName: CambiarEscena
+      - m_Target: {fileID: 17723869}
+        m_TargetAssemblyTypeName: CambiosdeScenaLYSANDRA, Assembly-CSharp
+        m_MethodName: LysandraPuertaMala
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6717,18 +6716,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540209356}
   m_CullTransparentMesh: 1
---- !u!114 &1540209361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1540209356}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8baadc5a471c0c04b93390dcfd35ed7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1560491281
 GameObject:
   m_ObjectHideFlags: 0
