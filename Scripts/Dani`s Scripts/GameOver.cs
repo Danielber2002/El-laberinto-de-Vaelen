@@ -25,6 +25,11 @@ public class GameOver : MonoBehaviour
         SceneManager.LoadScene("CharacterSelection");
     }
 
+    public void Rules()
+    {
+        SceneManager.LoadScene("Reglas");
+    }   
+
     public void Exit()
     {
         Application.Quit();
