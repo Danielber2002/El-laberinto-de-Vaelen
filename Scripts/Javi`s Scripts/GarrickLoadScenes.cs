@@ -5,7 +5,9 @@ public class GarrickLoadScenes : MonoBehaviour
 {
     public void CambiarEscena(string nameOfNextScene)
     {
-        PlayerPrefs.GetInt("PersonajeSeleccionado", 1);
+        PlayerPrefs.SetInt("PersonajeSeleccionado", 1);
+        PlayerPrefs.Save();
+
         SceneManager.LoadScene(nameOfNextScene);
     }
 }
