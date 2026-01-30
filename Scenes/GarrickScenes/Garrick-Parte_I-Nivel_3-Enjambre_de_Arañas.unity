@@ -4273,7 +4273,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Garrick-Parte_I-Nivel_3-Trampa
+          m_StringArgument: MidpointScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1491163016
@@ -6657,7 +6657,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "Garrick-Parte_I-Nivel_3-Enjambre_de_Ara\xF1as"
+          m_StringArgument: MidpointScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1843421637
