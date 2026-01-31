@@ -4457,7 +4457,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 17723869}
         m_TargetAssemblyTypeName: CambiosdeScenaLYSANDRA, Assembly-CSharp
-        m_MethodName: EscenaFinal1
+        m_MethodName: EscenaFinal3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
