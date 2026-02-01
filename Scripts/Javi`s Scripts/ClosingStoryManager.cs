@@ -36,6 +36,7 @@ public class ClosingStoryManager : MonoBehaviour
 
         esFinalBueno = PlayerPrefs.GetInt("EsFinalBueno") == 1;
         jugadorActual = PlayerPrefs.GetInt("PersonajeSeleccionado");
+        Debug.Log(string.Format("Claves: EsFinalBueno= {0} | PersonajeSeleccionado= {1}", esFinalBueno, jugadorActual));
 
         AsignarValoresEscena();
         StartCoroutine(ExecuteStory());

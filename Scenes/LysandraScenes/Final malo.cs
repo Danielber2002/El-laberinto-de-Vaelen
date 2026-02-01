@@ -73,6 +73,9 @@ public class Finalmalo : MonoBehaviour
 
     public void ClosingStoryScene()
     {
+        PlayerPrefs.SetInt("EsFinalBueno", vidasRestantes >= 3 ? 1 : 0);
+        Debug.Log(string.Format("Claves: EsFinalBueno= {0}", vidasRestantes >= 3 ? 1 : 0));
+        PlayerPrefs.Save();
         SceneManager.LoadScene("ClosingStoryScene");
     }
 
@@ -83,11 +86,5 @@ public class Finalmalo : MonoBehaviour
             if (corazones[i] != null)
                 corazones[i].SetActive(i < vidasRestantes);
         }
-    }
-
-    void Update()
-    {
-        PlayerPrefs.SetInt("EsFinalBueno", vidasRestantes >= 3 ? 1 : 0);
-        PlayerPrefs.Save();
     }
 }

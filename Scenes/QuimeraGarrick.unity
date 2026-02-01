@@ -2187,7 +2187,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 288564566}
         m_TargetAssemblyTypeName: Finalmalo, Assembly-CSharp
-        m_MethodName: IrAPuertaMala
+        m_MethodName: ClosingStoryScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
