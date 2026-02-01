@@ -1,14 +1,16 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ClosingStoryManager : MonoBehaviour
 {
+    private const string ESCENA_TRAS_FINAL = "TitleScreen";
+
     private Sprite imagenPasilloGuiaElegida;
     private AudioSource andarSonido;
-    private bool haPulsadoBoton = false;
-    private bool esFinalBueno;
+    private bool haPulsadoBoton, esFinDelJuego, esFinalBueno;
     private int jugadorActual;
 
     [Header("Referencias de Objetos")]
@@ -27,6 +29,9 @@ public class ClosingStoryManager : MonoBehaviour
 
     void Start()
     {
+        haPulsadoBoton = false;
+        esFinDelJuego = false;
+
         andarSonido = musicManager.GetComponents<AudioSource>()[1];
 
         esFinalBueno = PlayerPrefs.GetInt("EsFinalBueno") == 1;
@@ -174,15 +179,34 @@ public class ClosingStoryManager : MonoBehaviour
 
         if (esFinalBueno)
         {
-            yield return StartCoroutine(TypeText("Prepararon la poción con la hierba mágica y se la diero a su mamá."));
+            yield return StartCoroutine(TypeText("Prepararon la poción con la hierba mágica y se la diero a su madre."));
             yield return StartCoroutine(TypeText("De repente la cara de la mádre cambió, se notaba mejor casi al instante."));
             yield return StartCoroutine(TypeText("Todos felices se unieron en un enorme abrazo y celebraron la recuperación de su familia."));
-        } else
-        {
-            yield return StartCoroutine(TypeText("Sorrem no muy animado, se puso a preparar la poción curativa junto a Lysandra."));
+        } else {
+            string protagonista = "...", hermanoSuperviviente = "...";
+            switch (jugadorActual)
+            {
+                case 0: // Sorrem.
+                    protagonista = "Sorrem";
+                    hermanoSuperviviente = "Lysandra";
+                    break;
+                case 1: // Garrick.
+                    protagonista = "Garrick";
+                    hermanoSuperviviente = "Sorrem";
+                    break;
+                case 2: // Lysandra.
+                    protagonista = "Lysandra";
+                    hermanoSuperviviente = "Garrick";
+                    break;
+            }
+            yield return StartCoroutine(TypeText(string.Format("{0} no muy animado, se puso a preparar la poción curativa junto a {1}.",
+                protagonista, hermanoSuperviviente)));
             yield return StartCoroutine(TypeText("De repente la cara de la mádre cambió, se notaba mejor casi al instante."));
             yield return StartCoroutine(TypeText("Sonrieron, pensando en lo que habian dejado atrás pero felices de seguir casi todos juntos"));
         }
+
+        // Cambia el botón de conversación para cuando lo pulses a esta altura, nos redirija a la escena TitleScreen.
+        esFinDelJuego = true;
     }
 
     // Corrutina para el efecto de escribir letra por letra
@@ -202,6 +226,17 @@ public class ClosingStoryManager : MonoBehaviour
     public void AlPulsarBotonContinuar()
     {
         haPulsadoBoton = true;
+    }
+
+    public void RedirigirPantallaTitulo()
+    {
+        if (esFinDelJuego)
+        {
+            PlayerPrefs.DeleteAll();
+            PlayerPrefs.Save();
+
+            SceneManager.LoadScene(ESCENA_TRAS_FINAL);
+        }
     }
 
     private void AsignarValoresEscena()
