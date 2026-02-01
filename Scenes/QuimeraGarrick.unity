@@ -301,7 +301,6 @@ GameObject:
   m_Component:
   - component: {fileID: 17723868}
   - component: {fileID: 17723869}
-  - component: {fileID: 17723870}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -318,7 +317,7 @@ Transform:
   m_GameObject: {fileID: 17723867}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 783.7239, y: 389.66888, z: -6.115662}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -334,18 +333,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18ac2d423e4a0b24d9cb77e8976c7128, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &17723870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 17723867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e3af0b54a6a4f34e87055b477992101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &19373063
@@ -1313,6 +1300,7 @@ MonoBehaviour:
   "fondoDa\xF1ado": {fileID: 1387481846}
   contenidoAcertijo: {fileID: 1949930483}
   botonSiguiente: {fileID: 623098871}
+  botonContinuar: {fileID: 1598515051}
 --- !u!1 &406545874
 GameObject:
   m_ObjectHideFlags: 0
@@ -3389,6 +3377,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 288564566}
+        m_TargetAssemblyTypeName: Finalmalo, Assembly-CSharp
+        m_MethodName: ActivarBotonContinuar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &835049791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5418,9 +5418,9 @@ MonoBehaviour:
   - {fileID: 1584508266}
   - {fileID: 1121858868}
   - {fileID: 1658368407}
+  - {fileID: 57273263}
   objectsforAdd:
   - {fileID: 626528068}
-  - {fileID: 1058359897}
 --- !u!114 &1121858871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5492,6 +5492,18 @@ MonoBehaviour:
       - m_Target: {fileID: 288564566}
         m_TargetAssemblyTypeName: Finalmalo, Assembly-CSharp
         m_MethodName: RestarVida
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 288564566}
+        m_TargetAssemblyTypeName: Finalmalo, Assembly-CSharp
+        m_MethodName: ActivarBotonContinuar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6317,7 +6329,7 @@ Transform:
   m_GameObject: {fileID: 1361205034}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 869.4355, y: 749.84906, z: -0.11185849}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6685,6 +6697,18 @@ MonoBehaviour:
       - m_Target: {fileID: 288564566}
         m_TargetAssemblyTypeName: Finalmalo, Assembly-CSharp
         m_MethodName: RestarVida
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 288564566}
+        m_TargetAssemblyTypeName: Finalmalo, Assembly-CSharp
+        m_MethodName: ActivarBotonContinuar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7555,6 +7579,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 288564566}
+        m_TargetAssemblyTypeName: Finalmalo, Assembly-CSharp
+        m_MethodName: ActivarBotonContinuar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1584508269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7722,8 +7758,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 17723870}
-        m_TargetAssemblyTypeName: CambiosdeScenaSORREM, Assembly-CSharp
+      - m_Target: {fileID: 288564566}
+        m_TargetAssemblyTypeName: Finalmalo, Assembly-CSharp
         m_MethodName: ClosingStoryScene
         m_Mode: 1
         m_Arguments:

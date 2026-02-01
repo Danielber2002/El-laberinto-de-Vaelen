@@ -16,7 +16,7 @@ public class Finalmalo : MonoBehaviour
     public GameObject contenidoAcertijo;
 
     [Header("UI Siguiente Nivel")]
-    public GameObject botonSiguiente;
+    public GameObject botonSiguiente, botonContinuar;
 
     public static int vidasRestantes = 4;
     private bool yaSeActivoElFinal = false;
@@ -35,6 +35,36 @@ public class Finalmalo : MonoBehaviour
         if (contenidoAcertijo) contenidoAcertijo.SetActive(true);
     }
 
+
+    void ActivarSecuenciaFinal()
+    {
+        yaSeActivoElFinal = true;
+
+        // 1. DESACTIVAMOS la interfaz vieja para que no estorbe
+        if (contenidoAcertijo)
+            contenidoAcertijo.SetActive(false);
+
+        // 2. Cambiamos las imágenes de fondo
+        if (fondoNormal) fondoNormal.SetActive(false);
+        //if (fondoDañado) fondoDañado.SetActive(true);
+
+        // 3. Activamos el botón "Siguiente"
+        if (botonSiguiente)
+        {
+            botonSiguiente.SetActive(true);
+            botonSiguiente.transform.SetAsLastSibling();
+        }
+    }
+
+    void ActualizarCorazonesVisuales()
+    {
+        for (int i = 0; i < corazones.Length; i++)
+        {
+            if (corazones[i] != null)
+                corazones[i].SetActive(i < vidasRestantes);
+        }
+    }
+
     public void RestarVida()
     {
         if (yaSeActivoElFinal) return;
@@ -51,23 +81,15 @@ public class Finalmalo : MonoBehaviour
         }
     }
 
-    void ActivarSecuenciaFinal()
+    /// <summary>
+    /// Si en el último acertijo fallas pero tienes más de 2 vidas (de 4),
+    /// cuenta como exito y debe aparecer el botón de continuar.
+    /// </summary>
+    public void ActivarBotonContinuar()
     {
-        yaSeActivoElFinal = true;
-
-        // 1. DESACTIVAMOS la interfaz vieja para que no estorbe
-        if (contenidoAcertijo)
-            contenidoAcertijo.SetActive(false);
-
-        // 2. Cambiamos las imágenes de fondo
-        if (fondoNormal) fondoNormal.SetActive(false);
-        if (fondoDañado) fondoDañado.SetActive(true);
-
-        // 3. Activamos el botón "Siguiente"
-        if (botonSiguiente)
+        if (vidasRestantes >= 3)
         {
-            botonSiguiente.SetActive(true);
-            botonSiguiente.transform.SetAsLastSibling();
+            botonContinuar.SetActive(true);
         }
     }
 
@@ -77,14 +99,5 @@ public class Finalmalo : MonoBehaviour
         Debug.Log(string.Format("Claves: EsFinalBueno= {0}", vidasRestantes >= 3 ? 1 : 0));
         PlayerPrefs.Save();
         SceneManager.LoadScene("ClosingStoryScene");
-    }
-
-    void ActualizarCorazonesVisuales()
-    {
-        for (int i = 0; i < corazones.Length; i++)
-        {
-            if (corazones[i] != null)
-                corazones[i].SetActive(i < vidasRestantes);
-        }
     }
 }

@@ -7,7 +7,7 @@ public class GarrickLoadScenes : MonoBehaviour
     {
         PlayerPrefs.SetInt("PersonajeSeleccionado", 1);
         PlayerPrefs.Save();
-
+        Debug.Log(string.Format("Claves: PersonajeSeleccionado= {0}", PlayerPrefs.GetInt("PersonajeSeleccionado")));
         SceneManager.LoadScene(nameOfNextScene);
     }
 }
