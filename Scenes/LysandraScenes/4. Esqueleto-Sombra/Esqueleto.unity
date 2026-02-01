@@ -6883,7 +6883,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 17723869}
         m_TargetAssemblyTypeName: CambiosdeScenaLYSANDRA, Assembly-CSharp
-        m_MethodName: Doppelfamilia
+        m_MethodName: MidpointScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9573,7 +9573,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 17723869}
         m_TargetAssemblyTypeName: CambiosdeScenaLYSANDRA, Assembly-CSharp
-        m_MethodName: Doppelabuela
+        m_MethodName: MidpointScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

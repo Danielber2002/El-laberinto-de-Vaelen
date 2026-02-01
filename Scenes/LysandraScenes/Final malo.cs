@@ -71,9 +71,9 @@ public class Finalmalo : MonoBehaviour
         }
     }
 
-    public void IrAPuertaMala()
+    public void ClosingStoryScene()
     {
-        SceneManager.LoadScene("Puerta Mala");
+        SceneManager.LoadScene("ClosingStoryScene");
     }
 
     void ActualizarCorazonesVisuales()
