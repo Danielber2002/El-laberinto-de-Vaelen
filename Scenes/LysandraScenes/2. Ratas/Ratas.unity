@@ -3024,12 +3024,10 @@ MonoBehaviour:
   - {fileID: 951063860}
   - {fileID: 1978524362}
   - {fileID: 1582630200}
-  - {fileID: 1658368407}
   - {fileID: 1220510694}
   objectsforAdd:
   - {fileID: 1696571901}
   - {fileID: 9674480}
-  - {fileID: 1658368407}
 --- !u!1 &759090808
 GameObject:
   m_ObjectHideFlags: 0

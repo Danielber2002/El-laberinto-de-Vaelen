@@ -15,10 +15,10 @@ public class CambiosdeScenaLYSANDRA : MonoBehaviour
 
     }
 
-    public void Sorrem0Introduccion()
+    public void Lysandra0Introduccion()
     {
         PlayerPrefs.GetInt("PersonajeSeleccionado", 2);
-        SceneManager.LoadScene("Lysandra-1 Puertas");
+        SceneManager.LoadScene("Lysandra-1  Puertas");
     }
 
     public void LysandraPuertaMala()
