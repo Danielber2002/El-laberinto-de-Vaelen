@@ -617,7 +617,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xBFQue deseas hacer a continuacion?"
+  m_text: "\xBFQue deseas hacer a continuaci\xF3n?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5413,7 +5413,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Corres a cubrirte detr\xE1s d euna roca cercana, pero quedas atrapado
+  m_text: "Corres a cubrirte detr\xE1s de una roca cercana, pero quedas atrapado
     por un disparo de telara\xF1a: -1 de Vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -6378,7 +6378,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: En cuanto levantas la cabeza te das cuentas, ves que vuelves a estar en
+  m_text: En cuanto levantas la cabeza te das cuenta, ves que vuelves a estar en
     peligro. De repente se te revuelve todo tu cuerpo y entras en shock.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -6846,8 +6846,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Andas cabizbajo pensando en c\xF3mo se ha vuelto a quedar solo.  Por su
-    cabezoneria ha matado a lo que le quedaba de familia."
+  m_text: "Est\xE1s inmerso en una telara\xF1a de pensamientos... \xBFc\xF3mo te
+    has vuelto a quedar solo?\xBFPor qu\xE9 tu cabezoneria ha matado a lo que le
+    quedaba de familia?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}

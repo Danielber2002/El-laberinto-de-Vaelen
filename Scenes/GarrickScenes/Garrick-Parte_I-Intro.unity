@@ -1066,7 +1066,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2857545698759547781, guid: 87e77ade711312848b353f2c11aa5f74, type: 3}
+  m_Sprite: {fileID: 10562874045619532, guid: 0b79ca968f6ab864d94943f6710e6e18, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1740,7 +1740,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "La habitaci\xF3n a la que has llegado parece vac\xEDa, pero llena de luz.
-    Es un entorno seguro al parecer.\n\n\xBFQue deseas hacer a continuacion?"
+    Es un entorno seguro al parecer. \xBFQue deseas hacer a continuacion?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
