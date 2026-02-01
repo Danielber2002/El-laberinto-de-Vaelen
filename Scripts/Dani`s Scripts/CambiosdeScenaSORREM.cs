@@ -90,4 +90,15 @@ public class CambiosdeScenaSORREM : MonoBehaviour
     {
         SceneManager.LoadScene("MidpointScene");
     }
+
+    public void QuimeraSorrem()
+    {
+        SceneManager.LoadScene("QuimeraSorrem");
+    }
+
+    public void ClosingStoryScene()
+    {
+        SceneManager.LoadScene("ClosingStoryScene");
+    }
+
 }
