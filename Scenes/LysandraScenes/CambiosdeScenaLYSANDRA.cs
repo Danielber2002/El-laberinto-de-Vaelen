@@ -3,101 +3,96 @@ using UnityEngine.SceneManagement;
 
 public class CambiosdeScenaLYSANDRA : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void Lysandra0Introduccion()
     {
-        PlayerPrefs.GetInt("PersonajeSeleccionado", 2);
-        SceneManager.LoadScene("Lysandra-1  Puertas");
+        CargarEscena("Lysandra-1  Puertas");
     }
 
     public void LysandraPuertaMala()
     {
-        SceneManager.LoadScene("Puerta Mala");
+        CargarEscena("Puerta Mala");
     }
 
     public void LysandraRatas()
     {
-        SceneManager.LoadScene("Ratas");
+        CargarEscena("Ratas");
     }
 
     public void LysandraCieno()
     {
-        SceneManager.LoadScene("CienoAlquitran");
+        CargarEscena("CienoAlquitran");
     }
 
     public void LysandraEsqueleto()
     {
-        SceneManager.LoadScene("Esqueleto");
+        CargarEscena("Esqueleto");
     }
 
     public void LysandraSombra()
     {
-        SceneManager.LoadScene("Sombra");
+        CargarEscena("Sombra");
     }
 
     public void Doppelabuela()
     {
-        SceneManager.LoadScene("Doppel.abuela");
+        CargarEscena("Doppel.abuela");
     }
 
     public void Doppelfamilia()   
     {
-        SceneManager.LoadScene("Doppel.familia");
+        CargarEscena("Doppel.familia");
     }
 
     public void LysandraAraña()
     {
-        SceneManager.LoadScene("araña");
+        CargarEscena("araña");
     }
 
     public void LysandraEspectro()
     {
-        SceneManager.LoadScene("Espectro");
+        CargarEscena("Espectro");
     }
 
     public void Doppel1()
     {
-        SceneManager.LoadScene("Doppel.final");
+        CargarEscena("Doppel.final");
     }
 
     public void Doppel2()
     {
-        SceneManager.LoadScene("Doppel.final 2");
+        CargarEscena("Doppel.final 2");
     }
 
     public void Doppel3()
     {
-        SceneManager.LoadScene("Doppel.final 3");
+        CargarEscena("Doppel.final 3");
     }
     
     public void EscenaFinal1()
     {
-        SceneManager.LoadScene("QuimeraSorren");
+        CargarEscena("QuimeraSorren");
     }
 
     public void EscenaFinal2()
     {
-        SceneManager.LoadScene("QuimeraGarrick");
+        CargarEscena("QuimeraGarrick");
     }
 
     public void EscenaFinal3()
     {
-        SceneManager.LoadScene("QuimeraLysandra");
+        CargarEscena("QuimeraLysandra");
     }
 
     public void MidpointScene()
     {
-        SceneManager.LoadScene("MidpointScene");
+        CargarEscena("MidpointScene");
+    }
+
+    private void CargarEscena(string nombreEscena)
+    {
+        PlayerPrefs.SetInt("PersonajeSeleccionado", 2);
+        PlayerPrefs.Save();
+        Debug.Log(string.Format("Claves: PersonajeSeleccionado= {0}", PlayerPrefs.GetInt("PersonajeSeleccionado")));
+        SceneManager.LoadScene(nombreEscena);
     }
 }
