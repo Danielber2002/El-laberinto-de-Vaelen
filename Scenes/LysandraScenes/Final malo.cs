@@ -46,7 +46,7 @@ public class Finalmalo : MonoBehaviour
 
         // 2. Cambiamos las imágenes de fondo
         if (fondoNormal) fondoNormal.SetActive(false);
-        //if (fondoDañado) fondoDañado.SetActive(true);
+        if (fondoDañado) fondoDañado.SetActive(true);
 
         // 3. Activamos el botón "Siguiente"
         if (botonSiguiente)
