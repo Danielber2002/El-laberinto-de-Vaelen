@@ -56,55 +56,55 @@ public class MidpointManager : MonoBehaviour
 
         // --------------------------------------------- Introducción.
         playerUI.sprite = lysandraImage;
-        yield return StartCoroutine(TypeText("Lysandra: ¡CHICOS!¡Seguis vivos! BIEEEN."));
+        yield return StartCoroutine(TypeText("Lysandra: ¡CHICOS!¡Seguís vivos! BIEEEN."));
         playerUI.sprite = sorremImage;
-        yield return StartCoroutine(TypeText("Sorrem: Que alegría de veros, estaba muy preocupado por ustedes."));
-        yield return StartCoroutine(TypeText("Sorrem: ¿Habreis tenido cuidado de no perder nada importante por el camino, no?"));
+        yield return StartCoroutine(TypeText("Sorrem: Qué alegría de veros, estaba muy preocupado por ustedes."));
+        yield return StartCoroutine(TypeText("Sorrem: ¿Habréis tenido cuidado de no perder nada importante por el camino, no?"));
         playerUI.sprite = garrickImage;
-        yield return StartCoroutine(TypeText("Garrick: Vaya que si, me alegro de verle hermanita jajajaja."));
+        yield return StartCoroutine(TypeText("Garrick: Vaya que sí, me alegro de verle, hermanita jajajaja."));
         playerUI.sprite = sorremImage;
-        yield return StartCoroutine(TypeText("Sorrem: Ni en una mazmorra como esta aprendes macho."));
+        yield return StartCoroutine(TypeText("Sorrem: Ni en una mazmorra como esta aprendes, macho."));
 
         // ---- Miedos
         playerUI.sprite = lysandraImage;
-        yield return StartCoroutine(TypeText("Lysandra: Por lo menos Garrick no se ha topado con un ejembre de serpientes, pff."));
+        yield return StartCoroutine(TypeText("Lysandra: Por lo menos Garrick no se ha topado con un enjambre de serpientes, pff."));
         playerUI.sprite = garrickImage;
-        yield return StartCoroutine(TypeText("Garrick: Aaagh, por favor ni las menciones."));
-        yield return StartCoroutine(TypeText("Garrick: Entonces ¿cómo es que estas aquí con nosotros? Con el miedo que te da una sola rata."));
+        yield return StartCoroutine(TypeText("Garrick: Aaagh, por favor, ni las menciones."));
+        yield return StartCoroutine(TypeText("Garrick: Entonces ¿cómo es que estás aquí con nosotros? Con el miedo que te da una sola rata."));
         playerUI.sprite = lysandraImage;
-        yield return StartCoroutine(TypeText("Lysandra: De puro milagro. Casi parece que el destino lo puso allí pensando en mi."));
+        yield return StartCoroutine(TypeText("Lysandra: De puro milagro. Casi parece que el destino lo puso allí pensando en mí."));
         playerUI.sprite = garrickImage;
-        yield return StartCoroutine(TypeText("Garrick: Bueno, al menos no fue un León. Ese bicho te pilla y le tienes que arrascar la barriguita jajaja"));
+        yield return StartCoroutine(TypeText("Garrick: Bueno, al menos no fue un león. Ese bicho te pilla y le tienes que rascar la barriguita jajaja."));
         playerUI.sprite = sorremImage;
-        yield return StartCoroutine(TypeText("Sorrem: Eeeh! Basta ya, yo no me he metido con vuestros miedos ¿vale?"));
-        yield return StartCoroutine(TypeText("Sorrem: Booff, que dos..."));
+        yield return StartCoroutine(TypeText("Sorrem: ¡Eeeh! Basta ya, yo no me he metido con vuestros miedos ¿vale?"));
+        yield return StartCoroutine(TypeText("Sorrem: Booff, qué dos..."));
 
         // --------------------------------------------- Presentación de la sala y su acertijo.
         playerUI.sprite = sorremImage;
         yield return StartCoroutine(TypeText("Sorrem: Vamos a seguir con lo que tenemos aquí."));
-        yield return StartCoroutine(TypeText("Sorrem: Veo que aquí no nos dejan pasar, el porton de en frente no tiene ni pomo ni cerradura."));
+        yield return StartCoroutine(TypeText("Sorrem: Veo que aquí no nos dejan pasar, el portón de enfrente no tiene ni pomo ni cerradura."));
         yield return StartCoroutine(TypeText("Sorrem: Nada... Tocará resolver el acertijo de esta sala. A este paso no terminaremos nunca."));
         playerUI.sprite = garrickImage;
-        yield return StartCoroutine(TypeText("Garrick: ¡Joe que pesimista! Pues otra más, ya ves..."));
+        yield return StartCoroutine(TypeText("Garrick: ¡Jo, qué pesimista! Pues otra más, ya ves..."));
         playerUI.sprite = sorremImage;
-        yield return StartCoroutine(TypeText("Sorrem: Mmmmm"));
+        yield return StartCoroutine(TypeText("Sorrem: Mmmmm."));
         yield return StartCoroutine(TypeText("Sorrem: El acertijo dice: El valor no nace, se forja con el tiempo. Primero el sueño, después el acero. El trono se alcanza con sangre y esfuerzo, y al final, solo queda el silencio del entierro."));
         // --------------------------------------------- Conflicto.
         playerUI.sprite = garrickImage;
-        yield return StartCoroutine(TypeText("Garrick: Vale, no es tan dificil. Normalmente siempre hay alguna trampa y aquí seguro que pasa lo mismo..."));
-        yield return StartCoroutine(TypeText("Garrick: Estoy seguro que el orden es: estatua del crio > estatua del guerrero > estatua del viejo > estatua del rey."));
+        yield return StartCoroutine(TypeText("Garrick: Vale, no es tan difícil. Normalmente siempre hay alguna trampa y aquí seguro que pasa lo mismo..."));
+        yield return StartCoroutine(TypeText("Garrick: Estoy seguro de que el orden es: estatua del crío > estatua del guerrero > estatua del viejo > estatua del rey."));
         yield return StartCoroutine(TypeText("Garrick: El rey es el final del camino."));
         playerUI.sprite = sorremImage;
-        yield return StartCoroutine(TypeText("Sorrem: ¡NO Garrick, no! Es el ciclo del heroe, así que no tiene sentido que jueguen al despiste tan desonestamente."));
+        yield return StartCoroutine(TypeText("Sorrem: ¡NO, Garrick, no! Es el ciclo del héroe, así que no tiene sentido que jueguen al despiste tan deshonestamente."));
         playerUI.sprite = garrickImage;
-        yield return StartCoroutine(TypeText("Garrick: ¿Que no dices? Soy yo quien ha estado evitando trampas. Aquí no tienes ni idea de como va esto, deja de mandar por una vez."));
+        yield return StartCoroutine(TypeText("Garrick: ¿Qué nos dices? Soy yo quien ha estado evitando trampas. Aquí no tienes ni idea de cómo va esto, deja de mandar por una vez."));
         playerUI.sprite = lysandraImage;
-        yield return StartCoroutine(TypeText("Lysandra: Caaalma chicos, caalma. Tiene parte de sentido lo que hablais los dos asi que vamos a tranquilizarnos primero."));
+        yield return StartCoroutine(TypeText("Lysandra: Caaalma, chicos, caalma. Tiene parte de sentido lo que habláis los dos, así que vamos a tranquilizarnos primero."));
         playerUI.sprite = garrickImage;
-        yield return StartCoroutine(TypeText("Garrick: ¿Para qué? Si al final se va hacer lo que Sorrem quiera. Mamá está muriendose y no paramos de perder el tiempo aquí. Hay que actuar más."));
+        yield return StartCoroutine(TypeText("Garrick: ¿Para qué? Si al final se va a hacer lo que Sorrem quiera. Mamá está muriéndose y no paramos de perder el tiempo aquí. Hay que actuar más."));
         // ----------------------------------------------------------------------------------- Derrumbe.
         playerUI.sprite = sorremImage;
-        yield return StartCoroutine(TypeText("Sorrem: ¿Qué haces Garrick?¡NO TOQUES LAS PALANCAS!"));
+        yield return StartCoroutine(TypeText("Sorrem: ¿Qué haces, Garrick? ¡NO TOQUES LAS PALANCAS!"));
         yield return StartCoroutine(TypeText("Sorrem: ¡NOOO!"));
         derrumbeSonido.enabled = true;
         backgroundImage.sprite = derrumbeBackground;

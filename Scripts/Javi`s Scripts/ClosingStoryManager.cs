@@ -57,16 +57,16 @@ public class ClosingStoryManager : MonoBehaviour
         backgroundImage.sprite = imagenSalaHierba;
         UiGameObject.SetActive(true);
         playerUiGameObject.SetActive(false);
-        yield return StartCoroutine(TypeText("La quimera, se retira lentamente entre risas. Todo este esfuerzo os ha conducido hasta la hierba mágica."));
-        yield return StartCoroutine(TypeText("Al fin la hierba está a vuestro alcance. Recogeis un par de ellas."));
+        yield return StartCoroutine(TypeText("La quimera se retira lentamente entre risas. Todo este esfuerzo os ha conducido hasta la hierba mágica."));
+        yield return StartCoroutine(TypeText("Al fin la hierba está a vuestro alcance. Recogéis un par de ellas."));
         playerUiGameObject.SetActive(true);
 
         if (esFinalBueno)
         {
             playerUI.sprite = sorremImage;
-            yield return StartCoroutine(TypeText("Sorrem: ¡Siii, lo hemos conseguido! jajajajaj."));
+            yield return StartCoroutine(TypeText("Sorrem: ¡Siii, lo hemos conseguido! Jajajajaj."));
             playerUI.sprite = lysandraImage;
-            yield return StartCoroutine(TypeText("Lysandra: Buua por fin podemos salvar a mamá."));
+            yield return StartCoroutine(TypeText("Lysandra: Buua, por fin podemos salvar a mamá."));
             playerUI.sprite = garrickImage;
             yield return StartCoroutine(TypeText("Garrick: NO ME LO CREO, por fin nos vamos a largar de este lugar."));
         }
@@ -76,18 +76,18 @@ public class ClosingStoryManager : MonoBehaviour
             {
                 case 0: // Sorrem.
                     playerUI.sprite = sorremImage;
-                    yield return StartCoroutine(TypeText("Sorrem: ¡Dios no! Garrick no te mueras noo."));
+                    yield return StartCoroutine(TypeText("Sorrem: ¡Dios, no! Garrick, no te mueras, noo."));
                     yield return StartCoroutine(TypeText("Sorrem: Tenemos que salir de aquí, no podemos morir ahora."));
                     break;
                 case 1: // Garrick.
                     playerUI.sprite = garrickImage;
-                    yield return StartCoroutine(TypeText("Garrick: ¡¿Qué?! Lys despierta, Lys... LYYS. (llora)"));
+                    yield return StartCoroutine(TypeText("Garrick: ¡¿Qué?! Lys, despierta, Lys... LYYS. (llora)"));
                     yield return StartCoroutine(TypeText("Garrick: Espero que después de esto consigamos salvar a mamá."));
                     break;
                 case 2: // Lysandra.
                     playerUI.sprite = lysandraImage;
-                    yield return StartCoroutine(TypeText("Lysandra: Nooo Sorrem, no mueras noo..."));
-                    yield return StartCoroutine(TypeText("Lysandra: No, debemos que ser fuerte, es lo que Sorrem diría. Debemos salir de aquí."));
+                    yield return StartCoroutine(TypeText("Lysandra: Nooo, Sorrem, no mueras, noo..."));
+                    yield return StartCoroutine(TypeText("Lysandra: No, debemos ser fuertes, es lo que Sorrem diría. Debemos salir de aquí."));
                     break;
             }
         }
@@ -110,7 +110,7 @@ public class ClosingStoryManager : MonoBehaviour
         {
             playerUI.sprite = sorremImage;
             yield return StartCoroutine(TypeText("Sorrem: ¡Mirad! La esfera que me ayudó antes ha vuelto."));
-            yield return StartCoroutine(TypeText("Sorrem: Chicos, creo que es el espiritu de papá y nos está guiando a la salida. VAMOS"));
+            yield return StartCoroutine(TypeText("Sorrem: Chicos, creo que es el espíritu de papá y nos está guiando a la salida. ¡VAMOS!"));
         }
         else
         {
@@ -120,18 +120,18 @@ public class ClosingStoryManager : MonoBehaviour
                     playerUI.sprite = sorremImage;
                     yield return StartCoroutine(TypeText("Sorrem: La esfera de antes... Ahora va acompañada de otra."));
                     yield return StartCoroutine(TypeText("Sorrem: Lys, son papá y Garrick. Nos están protegiendo incluso en santa paz."));
-                    yield return StartCoroutine(TypeText("Sorrem: Nos guian hasta la salida, corre."));
+                    yield return StartCoroutine(TypeText("Sorrem: Nos guían hasta la salida, corre."));
                     break;
                 case 1: // Garrick.
                     playerUI.sprite = garrickImage;
-                    yield return StartCoroutine(TypeText("Garrick: Uuh ¿dos esferas?¿serán papá y Lys?."));
+                    yield return StartCoroutine(TypeText("Garrick: Uuh, ¿dos esferas? ¿Serán papá y Lys?"));
                     playerUI.sprite = sorremImage;
                     yield return StartCoroutine(TypeText("Sorrem: No le des más vueltas, corre, la salida está ahí."));
                     break;
                 case 2: // Lysandra.
                     playerUI.sprite = lysandraImage;
-                    yield return StartCoroutine(TypeText("Lysandra: Mira Garrick, esas dos esferas son papá y Sorrem."));
-                    yield return StartCoroutine(TypeText("Lysandra: Siento que nos quieren guiar hasta fuera. SIGAMOSLES."));
+                    yield return StartCoroutine(TypeText("Lysandra: Mira, Garrick, esas dos esferas son papá y Sorrem."));
+                    yield return StartCoroutine(TypeText("Lysandra: Siento que nos quieren guiar hasta fuera. ¡SIGÁMOSLES!"));
                     break;
             }
         }
@@ -141,12 +141,12 @@ public class ClosingStoryManager : MonoBehaviour
         if (esFinalBueno)
         {
             playerUI.sprite = sorremImage;
-            yield return StartCoroutine(TypeText("Sorrem: Pensandolo bien chicos, es increible todo lo que hemos vivido ¿verdad?"));
-            yield return StartCoroutine(TypeText("Sorrem: Hemos luchado con criaturas terrorificas y salimos para contarlo."));
+            yield return StartCoroutine(TypeText("Sorrem: Pensándolo bien, chicos, es increíble todo lo que hemos vivido, ¿verdad?"));
+            yield return StartCoroutine(TypeText("Sorrem: Hemos luchado con criaturas terroríficas y salimos para contarlo."));
             playerUI.sprite = lysandraImage;
-            yield return StartCoroutine(TypeText("Lysandra: Ahora hago mágia."));
+            yield return StartCoroutine(TypeText("Lysandra: Ahora hago magia."));
             playerUI.sprite = garrickImage;
-            yield return StartCoroutine(TypeText("Garrick: Y sobrevivimos a nuestros miedos. Quién lo diria."));
+            yield return StartCoroutine(TypeText("Garrick: Y sobrevivimos a nuestros miedos. Quién lo diría."));
         }
         else
         {
@@ -154,8 +154,8 @@ public class ClosingStoryManager : MonoBehaviour
             {
                 case 0: // Sorrem.
                     playerUI.sprite = sorremImage;
-                    yield return StartCoroutine(TypeText("Sorrem: Viendole el lado positivo Lys, ahora somo más fuertes."));
-                    yield return StartCoroutine(TypeText("Sorrem: Nos falta papá y Garrick pero ahora podemos con todo."));
+                    yield return StartCoroutine(TypeText("Sorrem: Viéndole el lado positivo, Lys, ahora somos más fuertes."));
+                    yield return StartCoroutine(TypeText("Sorrem: Nos faltan papá y Garrick, pero ahora podemos con todo."));
                     break;
                 case 1: // Garrick.
                     playerUI.sprite = garrickImage;
@@ -164,8 +164,8 @@ public class ClosingStoryManager : MonoBehaviour
                     break;
                 case 2: // Lysandra.
                     playerUI.sprite = lysandraImage;
-                    yield return StartCoroutine(TypeText("Lysandra: Cuanta paz, se me hace raro pero lo agradezco."));
-                    yield return StartCoroutine(TypeText("Lysandra: Ahora soy más segura y la mágia me ha cambiado por completo, pero todavía necesito pensar en todo."));
+                    yield return StartCoroutine(TypeText("Lysandra: Cuánta paz, se me hace raro pero lo agradezco."));
+                    yield return StartCoroutine(TypeText("Lysandra: Ahora soy más segura y la magia me ha cambiado por completo, pero todavía necesito pensar en todo."));
                     break;
             }
         }
@@ -174,14 +174,14 @@ public class ClosingStoryManager : MonoBehaviour
         backgroundImage.sprite = imagenCasa;
         playerUiGameObject.SetActive(false);
 
-        yield return StartCoroutine(TypeText("Y así fue como los hermanos Moure se adentraron a las profundidades de el laberinto de Vaelen."));
-        yield return StartCoroutine(TypeText("Un lugar inhóspito y perdido, tuvieron que adentrarse para salvar a su familia."));
+        yield return StartCoroutine(TypeText("Y así fue como los hermanos Moure se adentraron en las profundidades del laberinto de Vaelen."));
+        yield return StartCoroutine(TypeText("Un lugar inhóspito y perdido; tuvieron que adentrarse para salvar a su familia."));
         yield return StartCoroutine(TypeText("Al llegar a casa, su hermana pequeña les recibió con gran entusiasmo."));
 
         if (esFinalBueno)
         {
-            yield return StartCoroutine(TypeText("Prepararon la poción con la hierba mágica y se la diero a su madre."));
-            yield return StartCoroutine(TypeText("De repente la cara de la mádre cambió, se notaba mejor casi al instante."));
+            yield return StartCoroutine(TypeText("Prepararon la poción con la hierba mágica y se la dieron a su madre."));
+            yield return StartCoroutine(TypeText("De repente, la cara de la madre cambió; se notaba mejor casi al instante."));
             yield return StartCoroutine(TypeText("Todos felices se unieron en un enorme abrazo y celebraron la recuperación de su familia."));
         } else {
             string protagonista = "...", hermanoSuperviviente = "...";
@@ -200,10 +200,10 @@ public class ClosingStoryManager : MonoBehaviour
                     hermanoSuperviviente = "Garrick";
                     break;
             }
-            yield return StartCoroutine(TypeText(string.Format("{0} no muy animado, se puso a preparar la poción curativa junto a {1}.",
+            yield return StartCoroutine(TypeText(string.Format("{0}, no muy animado, se puso a preparar la poción curativa junto a {1}.",
                 protagonista, hermanoSuperviviente)));
-            yield return StartCoroutine(TypeText("De repente la cara de la mádre cambió, se notaba mejor casi al instante."));
-            yield return StartCoroutine(TypeText("Sonrieron, pensando en lo que habian dejado atrás pero felices de seguir casi todos juntos"));
+            yield return StartCoroutine(TypeText("De repente, la cara de la madre cambió; se notaba mejor casi al instante."));
+            yield return StartCoroutine(TypeText("Sonrieron, pensando en lo que habían dejado atrás pero felices de seguir casi todos juntos."));
         }
 
         // Cambia el botón de conversación para cuando lo pulses a esta altura, nos redirija a la escena TitleScreen.

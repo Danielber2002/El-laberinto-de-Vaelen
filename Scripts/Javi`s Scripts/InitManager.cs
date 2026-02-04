@@ -58,11 +58,11 @@ public class InitManager : MonoBehaviour
 
         // 2. Asignar primera imagen de Lysandra y escribir primer texto.
         playerUI.sprite = lysandraImage;
-        yield return StartCoroutine(TypeText("Lysandra: Hemos estado muy cerca de morir. Aaaah! no puedo ni moverme."));
+        yield return StartCoroutine(TypeText("Lysandra: Hemos estado muy cerca de morir. ¡Aaaah!, no puedo ni moverme."));
 
         // 4. Cambiar imagen y escribir texto de Garrick.
         playerUI.sprite = garrickImage;
-        yield return StartCoroutine(TypeText("Garrick: Uuf si que estuvo cerca, esto ya no se parece ni de lejos a casa..."));
+        yield return StartCoroutine(TypeText("Garrick: Uuf, sí que estuvo cerca, esto ya no se parece ni de lejos a casa..."));
 
         // ----------------------------------------------------------  En casa
         // 5. Desactivamos la UI del textBox y cambiar imagen de Background (la granja).
@@ -76,8 +76,8 @@ public class InitManager : MonoBehaviour
 
         // 7. Cambiar imagen a la de la madre y su texto.
         playerUI.sprite = madreImage;
-        yield return StartCoroutine(TypeText("Madre: Hijos míos, han pasado 5 días y vuestro padre no aparece. Papá ha ido a un lugar lejano, en busca de una hierba curativa con propiedades milagrosas."));
-        yield return StartCoroutine(TypeText("Madre: No os queriamos asustar pero hace dos semanas apareció en la granja una pequeña criatura mágica que me maldijo y desapareció. Al principio no le di importancia pero día a día fuí notando como mi salud empeoraba."));
+        yield return StartCoroutine(TypeText("Madre: Hijos míos, han pasado 5 días y vuestro padre no aparece. Papá ha ido a un lugar lejano en busca de una hierba curativa con propiedades milagrosas."));
+        yield return StartCoroutine(TypeText("Madre: No os queríamos asustar, pero hace dos semanas apareció en la granja una pequeña criatura mágica que me maldijo y desapareció. Al principio no le di importancia, pero día a día fui notando cómo mi salud empeoraba."));
         yield return StartCoroutine(TypeText("Madre: Sin esa hierba moriré, así que hacedme el favor de ir a buscar a papá para que él cuide de vosotros. No quiero que este infortunio acabe con todos muertos."));
 
         // 8. Esperar unos segundos y volver a cambiar el background (cocina).
@@ -87,13 +87,13 @@ public class InitManager : MonoBehaviour
         playerUI.sprite = lysandraImage;
         yield return StartCoroutine(TypeText("Lysandra: No me creo que nos esté pasando esto (empieza a hiperventilar)."));
         playerUI.sprite = garrickImage;
-        yield return StartCoroutine(TypeText("Garrick: Calma Lys, seguro que papá ya estrá de vuelta con la hierba."));
+        yield return StartCoroutine(TypeText("Garrick: Calma, Lys, seguro que papá ya estará de vuelta con la hierba."));
         playerUI.sprite = sorremImage;
-        yield return StartCoroutine(TypeText("Sorrem: O no, sin papá hay que ponerse en lo peor. Creo que tenemos que hacer algo."));
+        yield return StartCoroutine(TypeText("Sorrem: O no; sin papá hay que ponerse en lo peor. Creo que tenemos que hacer algo."));
         playerUI.sprite = garrickImage;
-        yield return StartCoroutine(TypeText("Garrick: Si y ¿qué propones? ya oiste a mamá, ese lugar está lejos y ninguno de los tres le llemagos a la suela de nuestro padre. ¿Qué haremos estando allí?"));
+        yield return StartCoroutine(TypeText("Garrick: Sí, ¿y qué propones? Ya oíste a mamá, ese lugar está lejos y ninguno de los tres le llegamos a la suela de nuestro padre. ¿Qué haremos estando allí?"));
         playerUI.sprite = sorremImage;
-        yield return StartCoroutine(TypeText("Sorrem: Yaa, por eso toca unirnos y ser fuerte por la familia. Necesitamos un plan."));
+        yield return StartCoroutine(TypeText("Sorrem: Yaa, por eso toca unirnos y ser fuertes por la familia. Necesitamos un plan."));
 
         // ----------------------------------------------------------  De vuelta en la Dungeon
         // 9. Momento de la inscripción que hacen que se separen:
@@ -102,27 +102,27 @@ public class InitManager : MonoBehaviour
         playerUI.sprite = garrickImage;
         yield return StartCoroutine(TypeText("Garrick: Qué tiempos en la granja..."));
         playerUI.sprite = sorremImage;
-        yield return StartCoroutine(TypeText("Sorrem: Eeh chicos ¡mirad!."));
+        yield return StartCoroutine(TypeText("Sorrem: ¡Eeh, chicos, mirad!"));
 
         backgroundImage.sprite = imagenInscripcionPuerta;
         playerUI.sprite = sorremImage;
         yield return StartCoroutine(TypeText("Sorrem: Hay una inscripción en la puerta."));
-        yield return StartCoroutine(TypeText("Sorrem: Cuesta leerlo pero pone: "));
+        yield return StartCoroutine(TypeText("Sorrem: Cuesta leerlo, pero pone: "));
         yield return StartCoroutine(TypeText("La senda del destino es un hilo que se teje en soledad; dos hilos que convergen crecen desigual. Uno servirá de guía, mientras el otro se anuda al umbral."));
         playerUI.sprite = lysandraImage;
         yield return StartCoroutine(TypeText("Lysandra: ¿Habla de que nos separemos?"));
         playerUI.sprite = sorremImage;
-        yield return StartCoroutine(TypeText("Sorrem: Creo que si mmmm."));
+        yield return StartCoroutine(TypeText("Sorrem: Creo que sí, mmmm."));
         playerUI.sprite = garrickImage;
-        yield return StartCoroutine(TypeText("Garrick: Bieen, justo lo que nos hacia falta. Yo no me lo creo, lo pondrá para asuatar."));
+        yield return StartCoroutine(TypeText("Garrick: Bieen, justo lo que nos hacía falta. Yo no me lo creo, lo pondrá para asustar."));
         playerUI.sprite = sorremImage;
-        yield return StartCoroutine(TypeText("Sorrem: Yo tendría más cuidado Garrick."));
-        yield return StartCoroutine(TypeText("Sorrem: ...la trampa que hemos esquivado se activó cuando Lysandra empezó hablar, al poco de pasar el umbral de la puerta. No me cuadra."));
+        yield return StartCoroutine(TypeText("Sorrem: Yo tendría más cuidado, Garrick."));
+        yield return StartCoroutine(TypeText("Sorrem: ...la trampa que hemos esquivado se activó cuando Lysandra empezó a hablar, al poco de pasar el umbral de la puerta. No me cuadra."));
         playerUI.sprite = garrickImage;
         yield return StartCoroutine(TypeText("Garrick: ¿Cómo estás tan seguro? A lo mejor pisamos algo antes y ninguno nos dimos cuenta."));
         playerUI.sprite = lysandraImage;
-        yield return StartCoroutine(TypeText("Lysandra: Bueeeno chicos ¿qué hacemos?"));
-        yield return StartCoroutine(TypeText("Lysandra: Mientras discutimos mamá empeora y a saber donde de aquí dentro estará papá."));
+        yield return StartCoroutine(TypeText("Lysandra: Bueeeno, chicos, ¿qué hacemos?"));
+        yield return StartCoroutine(TypeText("Lysandra: Mientras discutimos, mamá empeora y a saber dónde de aquí dentro estará papá."));
         playerUI.sprite = sorremImage;
         yield return StartCoroutine(TypeText("Sorrem: Cierto, yo voto por separarnos."));
         playerUI.sprite = lysandraImage;
