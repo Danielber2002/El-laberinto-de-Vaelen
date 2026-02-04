@@ -5,6 +5,8 @@ public class CambiosdeScenaLYSANDRA : MonoBehaviour
 {
     public void Lysandra0Introduccion()
     {
+        PlayerPrefs.SetInt("PersonajeSeleccionado", 2);
+        PlayerPrefs.Save();
         CargarEscena("Lysandra-1  Puertas");
     }
 

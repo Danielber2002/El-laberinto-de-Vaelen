@@ -2259,7 +2259,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "La habitaci\xF3n a la que has llegado parece vac\xEDa, pero llena de luz.
-    Es un entorno seguro al parecer."
+    Es un entorno seguro al parecer en el que tomar un peque\xF1o descanso y lamentarte
+    antes de continuar."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -2587,8 +2588,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lamentas haber dejado atr\xE1s a tus hermanos y te planteas si fue una
-    buena decisi\xF3n hacerle caso al cartel que visteis."
+  m_text: "Has conseguido salir vivo de milagro del derrumbamiento, pero apesar de
+    haber sobrevivido te da vueltas al cabeza pensando que tus hermanos podr\xEDan
+    haber..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}

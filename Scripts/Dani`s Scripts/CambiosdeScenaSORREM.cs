@@ -17,7 +17,8 @@ public class CambiosdeScenaSORREM : MonoBehaviour
 
     public void Sorrem0Introduccion()
     {
-        PlayerPrefs.GetInt("PersonajeSeleccionado", 0);
+        PlayerPrefs.SetInt("PersonajeSeleccionado", 0);
+        PlayerPrefs.Save();
         SceneManager.LoadScene("Sorrem-0 Introduccion");
     }
 

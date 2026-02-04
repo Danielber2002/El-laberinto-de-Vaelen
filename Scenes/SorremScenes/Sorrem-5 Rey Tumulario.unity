@@ -5082,6 +5082,7 @@ MonoBehaviour:
   - {fileID: 92907267}
   - {fileID: 1451703329}
   - {fileID: 1285463068}
+  - {fileID: 1658368407}
   objectsforAdd:
   - {fileID: 1841284482}
   - {fileID: 891274}
@@ -7286,7 +7287,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1361205035}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -7966,7 +7967,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1361205035}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -8275,7 +8276,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1887043626
 RectTransform:
   m_ObjectHideFlags: 0

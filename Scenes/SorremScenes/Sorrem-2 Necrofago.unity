@@ -7677,7 +7677,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Atraviesas la puerta de la derecha hasta una habitaci\xF3n nueva. Es una
-    especie de cripta antigua derruida parece que no haber pasado nadie esta sala
+    especie de cripta antigua derruida parece que no ha pasado nadie por esta sala
     hace tiempo."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
