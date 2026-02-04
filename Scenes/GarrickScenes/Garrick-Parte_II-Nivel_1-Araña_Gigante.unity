@@ -5414,7 +5414,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Corres a cubrirte detr\xE1s de una roca cercana, pero quedas atrapado
-    por un disparo de telara\xF1a: -1 de Vida."
+    por un disparo de telara\xF1a: -1 de vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5856,8 +5856,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Intenta acertar una estocada, pero no tienes la precisi\xF3n de tu lado:
-    -1 de Vida."
+  m_text: "Intentas acertar una estocada, pero no tienes la precisi\xF3n de tu lado:
+    -1 de vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6378,8 +6378,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: En cuanto levantas la cabeza te das cuenta, ves que vuelves a estar en
-    peligro. De repente se te revuelve todo tu cuerpo y entras en shock.
+  m_text: 'En cuanto levantas la cabeza te das cuenta: ves que vuelves a estar en
+    peligro. De repente se te revuelve todo tu cuerpo y entras en shock.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6846,9 +6846,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Est\xE1s inmerso en una telara\xF1a de pensamientos... \xBFc\xF3mo te
-    has vuelto a quedar solo?\xBFPor qu\xE9 tu cabezoneria ha matado a lo que le
-    quedaba de familia?"
+  m_text: "Est\xE1s inmerso en una telara\xF1a de pensamientos... \xBFC\xF3mo te
+    has vuelto a quedar solo? \xBFPor qu\xE9 tu cabezoner\xEDa ha matado a lo que
+    le quedaba de familia?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -7408,7 +7408,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Intentas hablar con la ara\xF1a, pero ella te escupe una especie de baba
-    corrosiva: -1 de Vida."
+    corrosiva: -1 de vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}

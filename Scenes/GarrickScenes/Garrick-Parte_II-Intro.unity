@@ -2259,8 +2259,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Garrick: \xBFC\xF3mo no ha podido funcionar? Tenia TODO EL SENTIDO.\nLysa
-    y Sorrem siguen con vida, si , seguro. Dios m\xEDo...\n(empieza a llorar)"
+  m_text: "Garrick: \xBFC\xF3mo no ha podido funcionar? Ten\xEDa TODO EL SENTIDO.
+    Lysa y Sorrem siguen con vida, s\xED, seguro. Dios m\xEDo... (Empieza a llorar)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}

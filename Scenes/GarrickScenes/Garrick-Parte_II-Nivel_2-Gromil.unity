@@ -5389,7 +5389,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Te defiendes con exito de su pu\xF1alada."
+  m_text: "Te defiendes con \xE9xito de su pu\xF1alada."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5831,7 +5831,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Cargas contra \xE9l lleno de ir\xE1, propinandole un corte certero y eficaz.
+  m_text: "Cargas contra \xE9l lleno de ira, propin\xE1ndole un corte certero y eficaz.
     Le has decapitado."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -6821,7 +6821,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Avanzando empiezas a encontrar cepos junto a un rastro peculiar. Al poco
-    tiempo llegas a una sala m\xE1s amplia y en medio encuentras al artifice."
+    tiempo llegas a una sala m\xE1s amplia y en medio encuentras al art\xEDfice."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -7380,7 +7380,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Intentas comunicarte con \xE9l pero no te responde."
+  m_text: "Intentas comunicarte con \xE9l, pero no te responde."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}

@@ -923,8 +923,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Le has evitado el ataque, sales corriendo. Justo notas que se le resbala
-    la espada de sus huesudas manos, as\xED que la recoges: +2 de Ataque."
+  m_text: "Has evitado el ataque, sales corriendo. Justo notas que se le resbala
+    la espada de sus huesudas manos, as\xED que la recoges: +2 de ataque."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5400,8 +5400,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Te has defendido con exito. Notas como el esqueleto no lanza sus cortes
-    con precisi\xF3n."
+  m_text: "Te has defendido con \xE9xito. Notas c\xF3mo el esqueleto no lanza sus
+    cortes con precisi\xF3n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5844,7 +5844,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Le asestas un golpe, pero da\xF1as el pu\xF1o y ves que no sirvi\xF3 de
-    mucho: -1  de Vida."
+    mucho: -1 de vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6365,7 +6365,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Los huesos maltrechos del suelo toman forma... \xA1Es un esqueleto! y
+  m_text: "Los huesos maltrechos del suelo toman forma... \xA1Es un esqueleto! Y
     va armado con una espada."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -7393,7 +7393,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Intentas hablar con el pero sin resultados. No entiedes lo poco que esboza.
+  m_text: "Intentas hablar con \xE9l, pero sin resultados. No entiendes lo poco que
+    esboza"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}

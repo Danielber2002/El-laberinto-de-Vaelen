@@ -924,7 +924,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'Sales huyendo, con cuidado de no resbalarte con el pringue. Encuentras
-    por el suelo una pieza de armadura: +2 de Defensa.'
+    por el suelo una pieza de armadura: +2 de defensa.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5414,7 +5414,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Intentas defenderte pero eres absorbido por su masa: -1 de Vida.'
+  m_text: 'Intentas defenderte, pero eres absorbido por su masa: -1 de vida.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5856,7 +5856,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Intentas atacar pero la masa viscosa te succiona el brazo: -1 de Vida.'
+  m_text: 'Intentas atacar, pero la masa viscosa te succiona el brazo: -1 de vida.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6377,8 +6377,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'de repende aparece por la derecha una enorme masa gelatinosa: un Cieno
-    Ocre'
+  m_text: 'De repente, aparece por la derecha una enorme masa gelatinosa: un Cieno
+    Ocre.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6846,8 +6846,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Con reservas, atraviesas la puerta de la derecha hasta una habitaci\xF3n
-    nueva. Est\xE1 llena de una sustancia gelatinosa y huele bastante fuerte ....
-    cada vez te sientes m\xE1s solo e incapaz de avanzar."
+    nueva. Est\xE1 llena de una sustancia gelatinosa y huele bastante fuerte... cada
+    vez te sientes m\xE1s solo e incapaz de avanzar."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -7406,7 +7406,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Intentas interactuar con la criatura pero no hay respuesta.
+  m_text: Intentas interactuar con la criatura, pero no hay respuesta.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}

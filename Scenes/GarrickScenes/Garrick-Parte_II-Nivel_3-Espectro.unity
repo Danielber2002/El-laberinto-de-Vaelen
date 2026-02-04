@@ -923,7 +923,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tratas de huir pero sin exito, \xE9l traspasa paredes."
+  m_text: "Tratas de huir pero sin \xE9xito; \xE9l traspasa paredes."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5405,7 +5405,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Tratas de cubrirte de su abrazo pero es imposible: -1 de Vida.'
+  m_text: 'Tratas de cubrirte de su abrazo, pero es imposible: -1 de vida.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5847,8 +5847,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Intentas acertarle un golper pero es et\xE9reo. El espectro aprovecha
-    y te arrebata salud: -1 de Vida."
+  m_text: "Intentas acertarle un golpe, pero es et\xE9reo. El espectro aprovecha
+    y te arrebata salud: -1 de vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6370,7 +6370,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Giras el cuello y a lo lejos empiezas a distinguir una figura humanoide
-    que \xBFest\xE1 flotando?\nEs un espectro y viene a por t\xED."
+    que... \xBFest\xE1 flotando? Es un espectro y viene a por ti."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6837,8 +6837,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Siguen andando por los distorsionados pasillos de la mazmorra, pero esta
-    vez notas un escalofrio.
+  m_text: "Siguen andando por los distorsionados pasillos de la mazmorra, pero esta
+    vez notas un escalofr\xEDo"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -7399,7 +7399,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "A punto de verte con San Pedro, tratas de hablar con \xE9l para que frene
     y le cuentas si vio por los pasillos a versiones fantasma de sus hermanos. M\xE1s
-    tarde le cuenta porqu\xE9 est\xE1 \xE9l all\xED. El espectro se apiada."
+    tarde le cuentas por qu\xE9 est\xE1 \xE9l all\xED. El espectro se apiada."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}

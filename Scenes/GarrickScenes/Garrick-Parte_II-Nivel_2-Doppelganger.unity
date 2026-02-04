@@ -923,8 +923,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Intentas huir de \xE9l, pero la criatura bloquea cada intento. El Doppelg\xE1nger
-    te pone la zancadilla: -1 de Vida."
+  m_text: "Intentas huir de \xE9l, pero la criatura bloquea cada intento. El doppelg\xE4nger
+    te pone la zancadilla: -1 de vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5414,8 +5414,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Algo asustado tratas de cubrirte de los zarpazos, pero rompen con facilidad
-    tu guardia: -1 de Vida.'
+  m_text: 'Algo asustado, tratas de cubrirte de los zarpazos, pero rompen con facilidad
+    tu guardia: -1 de vida.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5857,8 +5857,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Harto de tanto machaque, corres, y fruto de la ira lanzas un corte tras
-    otro con la espada que portas.\nEl Doppelg\xE1nger retrocede, ah\xED le cortas
+  m_text: "Harto de tanto machaque, corres y, fruto de la ira, lanzas un corte tras
+    otro con la espada que portas. El doppelg\xE4nger retrocede; ah\xED le cortas
     un brazo y este sale huyendo."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -6380,8 +6380,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Garrick: \xBFqu\xE9? Aaaah\nDoppelg\xE1nger: Los condenaste a la muerte,
-    a todos.\nGarrick: \xA1CALLA!"
+  m_text: "Garrick: \xBFQu\xE9? Aaaah.\nDoppelg\xE4nger: Los condenaste a la muerte,
+    a todos. Garrick: \xA1CALLA!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6848,7 +6848,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Garrick: Lys \xA1EST\xC1S VIVA! Est\xE1s sangrando, ven, hay que taponer
+  m_text: "Garrick: Lys, \xA1EST\xC1S VIVA! Est\xE1s sangrando; ven, hay que taponar
     las heridas.\nLysandra: Me has matado, me has matado, me has matado..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -7409,7 +7409,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'La culpa te empuja a intentar explicarlo, pero aprovechan tu debilidad
-    y te golpea: -1 de Vida.'
+    y te golpean: -1 de vida.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}

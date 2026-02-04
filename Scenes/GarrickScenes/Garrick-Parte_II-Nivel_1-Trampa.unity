@@ -924,7 +924,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Corres como un animal, ves un hueco en la pared donde esconderte... \xA1y
-    llegas de milagro!\nVives para continaur."
+    llegas de milagro! Vives para continuar."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5414,8 +5414,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Intentas protegerte del paso de la roca pegandote a la pared y quedandote
-    inmovil, pero no sale bien: -1 de Vida.'
+  m_text: "Intentas protegerte del paso de la roca peg\xE1ndote a la pared y qued\xE1ndote
+    inm\xF3vil, pero no sale bien: -1 de vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5857,7 +5857,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Intentas golpear la roca para desviarla de su trayectoria: -1 de Vida.'
+  m_text: 'Intentas golpear la roca para desviarla de su trayectoria: -1 de vida.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6378,7 +6378,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "De repente notas un temblor.\n...\n\xA1UNA ROCA GIGANTE AAH!"
+  m_text: "De repente notas un temblor... \xA1UNA ROCA GIGANTE, AAH!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6845,9 +6845,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Est\xE1s inmerso en un laberinto de pensamientos... \xBFc\xF3mo te has
-    vuelto a quedar solo?\xBFPor qu\xE9 tu cabezoneria ha matado a lo que le quedaba
-    de familia?"
+  m_text: "Est\xE1s inmerso en un laberinto de pensamientos... \xBFC\xF3mo te has
+    vuelto a quedar solo? \xBFPor qu\xE9 tu cabezoner\xEDa ha matado a lo que le
+    quedaba de familia?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -7406,7 +7406,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xBFDe verdad? : -1 de Vida."
+  m_text: "\xBFDe verdad?: -1 de vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}

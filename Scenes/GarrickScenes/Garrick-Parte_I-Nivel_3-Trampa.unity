@@ -924,7 +924,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Percibes el goteo espeso de la cerradura y eliges un par de objetos de
-    la sala, sin llegar a robar m\xE1s. Sales vivo y coleando: +1 de Habilidad."
+    la sala, sin llegar a robar m\xE1s. Sales vivo y coleando: +1 de habilidad."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5844,8 +5844,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sospechas tanto que empiezas a golpear cada cofre. De repente ves como
-    eres mordido por un cofre... \xBFes un m\xEDmico!: -1 de Vida."
+  m_text: "Sospechas tanto que empiezas a golpear cada cofre. De repente ves c\xF3mo
+    eres mordido por un cofre... \xA1\xBFEs un m\xEDmico?!: -1 de vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6366,8 +6366,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Llegas a una nueva sala \xA1con varios tesoros!\n\xBFEspera un segundo?
-    Notas algo extra\xF1o, uno de los cofres no se ve normal."
+  m_text: "Llegas a una nueva sala \xA1con varios tesoros! \xBFEspera un segundo?
+    Notas algo extra\xF1o: uno de los cofres no se ve normal."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}

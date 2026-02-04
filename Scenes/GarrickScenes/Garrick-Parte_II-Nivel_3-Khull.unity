@@ -5413,8 +5413,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tratas de protegerte usando objetos de la zona pero estos se clavan en
-    tu piel en la destrucci\xF3n ocasionada: -1 de Vida."
+  m_text: "Tratas de protegerte usando objetos de la zona, pero estos se clavan en
+    tu piel en la destrucci\xF3n ocasionada: -1 de vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5857,7 +5857,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Intentas golpearlo, pero nada m\xE1s te acercas te revienta de un golpe:
-    -1 de Vida."
+    -1 de vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6378,7 +6378,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: (esquivas el primer ataque).
+  m_text: (Esquivas el primer ataque).
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -7404,7 +7404,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Enfureces m\xE1s a la criatura y carga contra t\xED: -1 de Vida."
+  m_text: "Enfureces m\xE1s a la criatura y carga contra ti: -1 de vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}

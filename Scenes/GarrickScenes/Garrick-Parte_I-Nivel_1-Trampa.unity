@@ -924,7 +924,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'Usas tu destreza para eludir los cepos y salir de la sala. Pero antes,
-    encontraste una espada en el suelo: +2 de Ataque.'
+    encontraste una espada en el suelo: +2 de ataque.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5845,7 +5845,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Pisas uno de los cepos, creandote heridas severas: -1 de Vida.'
+  m_text: "Pisas uno de los cepos, cre\xE1ndote heridas severas: -1 de vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6366,8 +6366,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Paras por un segundo \xBFqu\xE9 es eso? \xA1\xA1\xA1El suelo est\xE1 plagado
-    de cepos!!!"
+  m_text: "Paras por un segundo. \xBFQu\xE9 es eso? \xA1\xA1\xA1El suelo est\xE1
+    plagado de cepos!!!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6835,7 +6835,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Atraviesas la puerta de la derecha hasta una habitaci\xF3n nueva. La habitaci\xF3n
-    se ve un poco maltrecha, la soledad de apodera de t\xED."
+    se ve un poco maltrecha; la soledad se apodera de ti."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
@@ -7394,7 +7394,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xBFEst\xE1s intentando hablar a los cepos? \xBFde verdad?"
+  m_text: "\xBFEst\xE1s intentando hablar a los cepos? \xBFDe verdad?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}

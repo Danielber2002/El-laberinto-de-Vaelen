@@ -2246,8 +2246,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "GarricK: \xABEspero que no aparezcan serpientes aqu\xED, me pondr\xEDa
-    de los nervios aagh\xBB"
+  m_text: "Garrick: \xABEspero que no aparezcan serpientes aqu\xED; me pondr\xEDa
+    de los nervios, aagh\xBB"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -2575,9 +2575,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Garrick: Mmmm se me sigue haciendo raro que nos tengamos que separar por
-    lo que diga una placa, pero bueno, todo sea por dejar de escuchar al pesado de
-    Sorrem.\r\nManda m\xE1s que un noble exigiendo su feudo JAJAJA. "
+  m_text: "Garrick: Mmmm, se me sigue haciendo raro que nos tengamos que separar
+    por lo que diga una placa, pero bueno, todo sea por dejar de escuchar al pesado
+    de Sorrem. Manda m\xE1s que un noble exigiendo su feudo, JAJAJA."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}

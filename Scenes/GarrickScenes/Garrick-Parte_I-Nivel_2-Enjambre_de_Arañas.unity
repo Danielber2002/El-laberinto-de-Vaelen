@@ -923,7 +923,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Puedes esquivarlas pero no huir de ellas.
+  m_text: Puedes esquivarlas, pero no huir de ellas.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5402,7 +5402,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Intentas defenderte, pero por quedarte parado te sepultan las ara\xF1as
-    y inmobilizan con su tela:  -1 de Vida."
+    e inmovilizan con su tela: -1 de vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -5844,8 +5844,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'No paras de asestar estocadas y cortes. Con exito, limpias parte de la
-    sala y el resto huye. Tu estado fisico cada vez es mejor: +2 Defensa.'
+  m_text: "No paras de asestar estocadas y cortes. Con \xE9xito, limpias parte de
+    la sala y el resto huye. Tu estado f\xEDsico cada vez es mejor: +2 de defensa."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6366,8 +6366,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "De repente aparecen un enjambre de ara\xF1as. El miedo te paraliza y empiezas
-    a replanearte si debes abandonar o no."
+  m_text: "De repente aparece un enjambre de ara\xF1as. El miedo te paraliza y empiezas
+    a replantearte si debes abandonar o no."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: 8140411122994348997, guid: 3683f77e1058daa41815f82a30b295be, type: 2}
@@ -6835,7 +6835,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Avanzas por la izquierda hasta encontrar un pasillo. Cada vez sientes
-    m\xE1s la soledad y la duda de si podras con todo esto."
+    m\xE1s la soledad y la duda de si podr\xE1s con todo esto."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8834177ad2938c468d03743c1912212, type: 2}
   m_sharedMaterial: {fileID: -3521029196297495520, guid: c8834177ad2938c468d03743c1912212, type: 2}
